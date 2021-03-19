@@ -6,18 +6,24 @@ import { makeStyles } from "@material-ui/styles";
 const useStyles = makeStyles(() => ({
   typographyStyles: {
     flex: 1
+  },
+  appbarStyle: {
+    paddingBottom:"",
+    backgroundColor: "#c5cbf5",
+    color:"#fe8500"
   }
+
 }));
 
 const Header = () => {
   const classes = useStyles();
   return (
     <AppBar position="static">
-      <Toolbar>
-        <Typography className={classes.typographyStyles}>
-          Know Your Rights
+      <Toolbar className={classes.appbarStyle}>
+        <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
+          KNOW YOUR RIGHTS
         </Typography>
-        <GavelIcon />
+        
       </Toolbar>
     </AppBar>
   );
