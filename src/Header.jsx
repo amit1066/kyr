@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     color:"#fe8500",
   },
   grow: {
-    flexGrow: 1,
+    flexGrow: 0,
   },
   search: {
     position: 'relative',
@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   appbarStyle: {
-    paddingBottom:"",
+    //paddingBottom:"",
     backgroundColor: "#c5cbf5",
     
   }
@@ -60,7 +60,7 @@ const Header = () => {
             <SearchIcon />
           </div>
           <InputBase
-            placeholder="Search…"
+            placeholder="         Search…"
             classes={{
               root: classes.inputRoot,
               input: classes.inputInput,
