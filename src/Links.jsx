@@ -5,10 +5,12 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { blue } from '@material-ui/core/colors';
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
+    backgroundColor: blue[100],
   },
   bullet: {
     display: 'inline-block',
@@ -21,6 +23,7 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+  
 });
 
 export default function SimpleCard() {
