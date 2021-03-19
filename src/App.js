@@ -10,9 +10,11 @@ import About from "./About";
 import Notification from "./Notification";
 import Links from "./Links";
 
+
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from "@material-ui/core/Button";
+
 
 const useStyles = makeStyles((theme) => ({
   AboutUs: {
@@ -38,19 +40,12 @@ const App = () => {
         <Grid item xs={0} sm ={2}/>
       </Grid>
       <Grid item container>
-        <Grid item xs={false} sm={2} />
-        <Grid item xs={12} sm={8}>
-          Content HERE 
+        <Grid item xs={12} sm= {6}>
+          <Notification />
         </Grid>
-        <Grid item container direction= "row" bgcolor="blue">
-          <Grid item xs={12} sm= {6}>
-           < Notification />
-          </Grid>
-          <Grid item xs={12} sm= {6}>
-            <Links />
-          </Grid>
+        <Grid item xs={12} sm= {6}>
+          <Links />
         </Grid>
-        <Grid item xs={false} sm={2} />
       </Grid>
       <Grid item container direction="row">
         <Grid item xs={3}/>
