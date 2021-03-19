@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
   const classes = useStyles();
   return (
-    <Grid container direction="column">
+    <Grid container>
       <Grid item xs= {12}>
         <Header />
       </Grid>
