@@ -29,7 +29,6 @@ const App = () => {
       <Grid item xs= {12}> 
         <Tabs />
       </Grid>
-      <Home/>
     </Grid>
   );
 };
