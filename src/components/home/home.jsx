@@ -3,7 +3,10 @@ import { Grid, Typography } from "@material-ui/core";
 import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+import { green } from "@material-ui/core/colors";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
     AboutUs: {
@@ -16,11 +19,59 @@ const useStyles = makeStyles((theme) => ({
         padding: "1.5rem",
     },
     root: {
-        ...theme.typography.button,
-        backgroundColor: theme.palette.background.paper,
-        padding: theme.spacing(1),
+        display: 'flex',
+        flexWrap: 'wrap',
+    },
+    margin: {
+        margin: theme.spacing(1),
+        backgroundColor: "white",
+    },
+    button: {
+        display: 'inline-block',
+        maxHeight: "1rem",
+        padding: '0px',
+        
     }
 }));
+
+const theme = createMuiTheme({
+    palette: {
+        primary: green,
+    },
+    overrides: {
+        MuiButton: {
+          root: {
+            margin: "5px",
+            padding: "2px"
+          }
+        }
+    }
+});
+// copied this style of text fields from https://material-ui.com/components/text-fields/ react reddit field
+const useStylesReddit = makeStyles((theme) => ({ 
+    root: {
+      border: '1px solid #e2e2e1',
+      overflow: 'hidden',
+      borderRadius: 5,
+      backgroundColor: '#fcfcfb',
+      transition: theme.transitions.create(['border-color', 'box-shadow']),
+      '&:hover': {
+        backgroundColor: '#fff',
+      },
+      '&$focused': {
+        backgroundColor: '#fff',
+        boxShadow: `${fade(theme.palette.primary.main, 0.25)} 0 0 0 2px`,
+        borderColor: theme.palette.primary.main,
+      },
+    },
+    focused: {},
+}));
+  
+function RedditTextField(props) {
+    const classes = useStylesReddit();
+  
+    return <TextField InputProps={{ classes, disableUnderline: true }} {...props} />;
+}
 
 const Home = () => {
     const classes = useStyles();
@@ -72,9 +123,22 @@ const Home = () => {
             </Grid>
             <Grid item container alignItems="left" justify="center" style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
                 <Grid item spacing={0} justify="center" alignItems="center">
-
                     <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
                     <Typography variant="h5" gutterBottom>ENTER YOUR EMAIL ADDRESS TO GET UPDATES!</Typography>
+                    <form className={classes.root} noValidate>
+                        <ThemeProvider theme={theme}>
+                            <RedditTextField
+                                label="Email"
+                                className={classes.margin}
+                                default-value=""
+                                variant="filled"
+                                id="email"
+                            />
+                            <Button variant="contained" color="primary" size="small" classes={classes.button}>
+                                Subscribe
+                            </Button>
+                        </ThemeProvider>
+                    </form>
                 </Grid> 
             </Grid>
         </div>
