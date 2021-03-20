@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
@@ -10,6 +10,16 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#fc9c31",
         color: "white",
     },
+    SubscribeNow: {
+        backgroundColor: "#100a33",
+        color: "white",
+        padding: "1.5rem",
+    },
+    root: {
+        ...theme.typography.button,
+        backgroundColor: theme.palette.background.paper,
+        padding: theme.spacing(1),
+    }
 }));
 
 const Home = () => {
@@ -60,14 +70,12 @@ const Home = () => {
                     phone no: 9999999999
                 </Grid>
             </Grid>
-            <Grid item container direction="row">
-                <Grid item xs={3} />
-                <Grid item xs={6} alignItems="center">
-                    <h1 alignItems="center">SUBSCRIBE NOW</h1>
-                    <h5>info</h5>
-                    <button>Click here(Redirects to feedback/subscription page)</button>
-                </Grid>
-                <Grid item xs={3} />
+            <Grid item container alignItems="left" justify="center" style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
+                <Grid item spacing={0} justify="center" alignItems="center">
+
+                    <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
+                    <Typography variant="h5" gutterBottom>ENTER YOUR EMAIL ADDRESS TO GET UPDATES!</Typography>
+                </Grid> 
             </Grid>
         </div>
     )
