@@ -47,6 +47,9 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
+  AppBarStyle: {
+    backgroundColor: "#100a33",
+  }
 }));
 
 export default function ScrollableTabsButtonAuto() {
@@ -59,12 +62,11 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="default">
+      <AppBar position="static" className={classes.AppBarStyle}>
         <Tabs
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
