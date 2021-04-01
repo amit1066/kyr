@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Box, Container } from "@material-ui/core";
 import Header from "./Header";
 import Tabs from "./Tabs";
 import Footer from "./components/common/footer"
@@ -18,22 +18,31 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#fc9c31",
     color: "white",
   },
+  root: {
+    height: "100vh",
+    width: "100%"
+  }
 }));
 
 const App = () => {
   const classes = useStyles();
   return (
-    <Grid container>
-      <Grid item xs= {12}>
-        <Header />
-      </Grid>
-      <Grid item xs= {12}> 
-        <Tabs />
-      </Grid>
-      <Grid item xs={12}>
-        <Footer />
-        </Grid>
-    </Grid>
+      <Box flexDirection="column" display="flex" className={classes.root}>
+        <Box>
+          <Grid container>
+            <Grid item xs={12}>
+              <Header />
+            </Grid>
+            <Grid item xs={12}>
+              <Tabs />
+            </Grid>
+          </Grid>
+        </Box>
+        <Box flexGrow={1}/>
+        <Box>
+          <Footer style={{width: '100vw'}}/>
+        </Box>
+      </Box>
   );
 };
 
