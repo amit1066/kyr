@@ -1,151 +1,77 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
+import { fade, makeStyles } from "@material-ui/core/styles";
 
-import {
-  Box,
-  Button,
-  Container,
-  createStyles,
-  makeStyles,
-  Paper,
-  Typography
-} from "@material-ui/core";
-import {
-  Link
-} from "react-router-dom";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+import InputBase from '@material-ui/core/InputBase';
+import SearchIcon from '@material-ui/icons/Search';
 
-import LetsChat from "./lets-chat";
+const useStyles = makeStyles((theme) => ({
+  typographyStyles: {
+    flex: 1,
+    color:"#fe8500",
+  },
+  grow: {
+    flexGrow: 0,
+  },
+  search: {
+    position: 'relative',
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: fade(theme.palette.common.white, 0.15),
+    '&:hover': {
+      backgroundColor: fade(theme.palette.common.white, 0.25),
+    },
+    marginRight: theme.spacing(2),
+    marginLeft: 0,
+    width: '100%',
+    [theme.breakpoints.up('sm')]: {
+      marginLeft: theme.spacing(3),
+      width: 'auto',
+    },
+  },
+  
+  
+  searchIcon: {
+    padding: theme.spacing(0, 2),
+    height: '100%',
+    position: 'absolute',
+    pointerEvents: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  appbarStyle: {
+    //paddingBottom:"",
+    backgroundColor: "#c5cbf5",
+    
+  }
 
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      paddingTop: 68,
-      paddingBottom: 68,
-      backgroundColor: "#0e172a",
-      borderRadius: 0,
-      [theme.breakpoints.down(800)]: {
-        paddingTop: 30,
-        paddingBottom: 30,
-      },
-      "& a": {
-        textDocation: "none",
-        color: "#ffffff",
-      }
-    },
-    surgeIcon: {
-      fontSize: "48px",
-      color: "#ffffff",
-      fontWeight: 600,
-      paddingLeft: 8,
-      [theme.breakpoints.down(800)]: {
-        fontSize: "18px",
-      },
-    },
-    navButtons: {
-      color: "#ffffff",
-      fontWeight: 600,
-      fontSize: "20px",
-      [theme.breakpoints.down(800)]: {
-        lineHeight: "21px",
-        fontSize: "12px",
-      },
-    },
-    growButton: {
-      "&:hover": {
-        backgroundColor: "#00ddb6",
-      },
-      borderRadius: 0,
-      border: "1px solid #00ddb6",
-      color: "#ffffff",
-      textTransform: "none",
-      paddingTop: 8,
-      paddingBottom: 8,
-      paddingLeft: 45,
-      paddingRight: 45,
-      [theme.breakpoints.down(800)]: {
-        display: "none",
-      },
-    },
-    dot: {
-      fontSize: "48px",
-      color: "#00ddb6",
-      fontWeight: 600,
-      [theme.breakpoints.down(800)]: {
-        fontSize: "16px",
-      },
-    },
-    hi: {
-      color: "#ffffff",
-      fontWeight: 600,
-      fontSize: "20px",
-      [theme.breakpoints.down(800)]: {
-        lineHeight: "21px",
-        fontSize: "12px",
-      },
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
-    whiteColor: {
-      color: "#ffffff",
-    }
-  })
-);
+}));
 
-const Footer = () => {
+const Header = () => {
   const classes = useStyles();
-  const [open, setOpen] = useState(false);
-
-  const handleClickOpen = useCallback(() => {
-    setOpen(true);
-  }, []);
-
-  const handleClose = useCallback(() => {
-    setOpen(false);
-  }, []);
   return (
-    <Paper elevation={0} className={classes.root}>
-      <LetsChat isOpen={open} handleClose={handleClose} />
-      <Container maxWidth="lg">
-        <Box
-          display="flex"
-          flexDirection="row"
-          justifyContent="space-between"
-          alignItems="center"
-        >
-          <Box display="flex" flexDirection="row" alignItems="center">
-            <Typography variant="h4"  className={classes.surgeIcon}>
-              Know Your Rights
-            </Typography>
-            <Typography variant="h4" className={classes.dot}>
-              .
-            </Typography>
-          </Box>
-          <Typography variant="h6" className={classes.whiteColor}>
-              <Link to="/">Home</Link>
-            </Typography>
-          <Typography variant="h6" className={classes.whiteColor}>
-              <Link to="/contact">Contact</Link>
-            </Typography>
-
-          <Button
-            variant="outlined"
-            disableElevation
-            className={classes.growButton}
-            endIcon={<ArrowForwardIcon />}
-            onClick={handleClickOpen}
-          >
-            <Typography variant="body1" className={classes.navButtons}>
-              Login
-            </Typography>
-          </Button>
-        </Box>
-      </Container>
-    </Paper>
+    <AppBar position="static">
+      <Toolbar className={classes.appbarStyle}>
+        <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
+          KNOW YOUR RIGHTS
+        </Typography>
+        <div className={classes.search}>
+          <div className={classes.searchIcon}>
+            <SearchIcon />
+          </div>
+          <InputBase
+            placeholder="         Search…"
+            classes={{
+              root: classes.inputRoot,
+              input: classes.inputInput,
+            }}
+            inputProps={{ 'aria-label': 'search' }}
+          />
+        </div>
+        <div className={classes.grow} />
+      </Toolbar>
+    </AppBar>
   );
 };
 
-export default Footer;
+export default Header;
