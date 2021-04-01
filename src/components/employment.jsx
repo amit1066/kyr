@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
-import Pmjdy from "./pmjdy";
 import { Grid, Paper } from '@material-ui/core';
 
 var opt;

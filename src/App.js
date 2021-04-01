@@ -2,6 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Header from "./Header";
 import Tabs from "./Tabs";
+import Footer from "./components/common/footer"
 import Search from "./Search";
 import About from "./About";
 import Home from "./components/home/home.jsx";
@@ -29,6 +30,9 @@ const App = () => {
       <Grid item xs= {12}> 
         <Tabs />
       </Grid>
+      <Grid item xs={12}>
+        <Footer />
+        </Grid>
     </Grid>
   );
 };

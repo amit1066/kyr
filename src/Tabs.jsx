@@ -5,6 +5,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Home from './components/home/home'
+import Feedback from './components/home/feedback'
+import Credits from './components/home/credits'
+import Education from './components/home/education'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Employment from './components/employment';
@@ -86,7 +89,7 @@ export default function ScrollableTabsButtonAuto() {
         <Home />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Education
+        <Education/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         Health
@@ -98,10 +101,10 @@ export default function ScrollableTabsButtonAuto() {
         Miscellaneous
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Feedback
+        <Feedback/>
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Credits
+        <Credits/>
       </TabPanel>
     </div>
   );
