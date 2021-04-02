@@ -11,7 +11,7 @@ import Education from './components/home/education'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Employment from './components/employment';
-
+import Health from './components/health'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -92,7 +92,8 @@ export default function ScrollableTabsButtonAuto() {
         <Education/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Health
+        <Health />
+        
       </TabPanel>
       <TabPanel value={value} index={3}>
         <Employment />
