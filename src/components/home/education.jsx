@@ -125,25 +125,19 @@ const Home = () => {
                 <Grid item xs={5} sm={4} style={{ margin: "20px" }}>
                     <Policy title="POLICY #1" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
-                <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }} >
-
-                    <h1>Policy #2 </h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
+                <Grid item xs={5} sm={4} style={{ margin: "20px" }} >
+                    <Policy title="POLICY #2" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
 
                 <Grid item xs={0} sm={2} />
             </Grid>
             <Grid item container >
                 <Grid item xs={0} sm={2} />
-                <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }}>
-
-                    <h1>Policy #3 </h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
+                <Grid item xs={5} sm={4}  style={{ margin: "20px" }}>
+                    <Policy title="POLICY #3" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
-                <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }} >
-
-                    <h1>Policy #4 </h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
+                <Grid item xs={5} sm={4} style={{ margin: "20px" }} >
+                    <Policy title="POLICY #4" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
 
                 <Grid item xs={0} sm={2} />
