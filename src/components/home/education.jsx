@@ -1,5 +1,8 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
 import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
@@ -10,11 +13,14 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
     AboutUs: {
-        backgroundColor: "#ededed",
+        backgroundColor: "#CFD5FA",
     width: "80%",
     marginLeft: "10%",
     margin: "50px",
     padding: "50px",
+    },
+    Policy: {
+        backgroundColor: "#CFD5FA",
     },
     SubscribeNow: {
         backgroundColor: "#100a33",
@@ -75,17 +81,37 @@ function RedditTextField(props) {
   
     return <TextField InputProps={{ classes, disableUnderline: true }} {...props} />;
 }
-
+function Policy(props) {
+    const classes = useStyles();
+    const bull = <span className={classes.bullet}>•</span>;
+  
+    return (
+      <Card className={classes.Policy}>
+        <CardContent>
+          <Typography className={classes.title} color="textSecondary" gutterBottom>
+            {props.title}
+          </Typography>
+          <Typography variant="h5" component="h2" color = "textSecondary">
+            {props.subtitle}
+          </Typography>
+          <Typography variant="body2" component="p">
+            {props.short_text}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small"> Read More</Button>
+        </CardActions>
+      </Card>
+    );
+  }
 const Home = () => {
     const classes = useStyles();
     return (
         <div>
             <Grid item container >
                 <Grid item xs={0} sm={2} />
-          <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }}>
-            
-            <h1>Policy #1 </h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
+          <Grid item xs={5} sm={4}  style={{ margin: "20px" }}>
+            <Policy title="Policy #1" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
           <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }} >
             
