@@ -21,7 +21,19 @@ const useStyles = makeStyles((theme) => ({
     },
     Policy: {
         backgroundColor: "#CFD5FA",
+        overflow: "visible"
     },
+    ReadMoreButton: {
+        backgroundColor: "white",
+        
+        '&:hover': {
+            backgroundColor: "#100A33",
+            border: "white 0.25rem",
+            color: "white"
+        },
+        'bottom': "-30px",
+    },
+
     SubscribeNow: {
         backgroundColor: "#100a33",
         color: "white",
@@ -88,7 +100,7 @@ function Policy(props) {
     return (
       <Card className={classes.Policy}>
         <CardContent>
-          <Typography className={classes.title} color="textSecondary" gutterBottom>
+          <Typography className={classes.title} variant="h2" color="textSecondary" style={{textAlign: "center"}} gutterBottom>
             {props.title}
           </Typography>
           <Typography variant="h5" component="h2" color = "textSecondary">
@@ -98,8 +110,8 @@ function Policy(props) {
             {props.short_text}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small"> Read More</Button>
+        <CardActions style={{justifyContent: "center"}}>
+          <Button size="small" variant="outlined" className={classes.ReadMoreButton}> Read More</Button>
         </CardActions>
       </Card>
     );
@@ -111,7 +123,7 @@ const Home = () => {
             <Grid item container >
                 <Grid item xs={0} sm={2} />
           <Grid item xs={5} sm={4}  style={{ margin: "20px" }}>
-            <Policy title="Policy #1" subtitle="subtitle" short_text="lorem ipsum" />
+            <Policy title="POLICY #1" subtitle="subtitle" short_text="lorem ipsum" />
                 </Grid>
           <Grid item xs={5} sm={4} className={classes.AboutUs} style={{ margin: "20px" }} >
             
