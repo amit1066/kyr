@@ -29,10 +29,19 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 function HealthDialog(props) {
   const classes = useStyles();
+  var entries = [];
+  for (let [key, value] of Object.entries(props.data)) {
+    entries.push([
+      <ListItem>
+        <ListItemText primary={key} secondary={value} />
+      </ListItem>,
+      <Divider />
+    ]);
+  }
   return (
     <div>
       <Button variant="outlined" color="primary" onClick={props.handleClickOpen}>
-        {props.title}
+        {props.title} 
       </Button>
       <Dialog fullScreen open={props.open} onClose={props.handleClose} TransitionComponent={Transition}>
         <AppBar className={classes.appBar}>
@@ -49,14 +58,7 @@ function HealthDialog(props) {
           </Toolbar>
         </AppBar>
         <List>
-          {
-            Object.keys(props.data).forEach(dataHead => ([
-              <ListItem>
-                <ListItemText primary={dataHead} secondary={props.data[dataHead]} />
-              </ListItem>,
-              <Divider />
-            ]))
-          }
+          {entries}
         </List>
 
       </Dialog>
@@ -65,7 +67,7 @@ function HealthDialog(props) {
   );
 }
 const d1 = {
-  title: "rere",
+  title: "rerfdfe",
   data: {
     "ABOUT": " The scheme comes under the National Handicrafts Development Programme under\
     the section Ambedkar Hastshilp Vikas Yojna.",
@@ -73,17 +75,8 @@ const d1 = {
     artisan community to access the best of healthcare facilities in the country.",
     "ELIGIBILITY": "  All Craft persons( Handicraft artisans) whether male or female, between the age\
     group of one day to 80 years are eligible to avail the scheme.",
-    "BENEFITS OF SCHEME:": "  table.",
-    "Pattern of Financial Assistance: ": "<ol><li> GOI share = 75% of the total premium (90% in case of J and K and NER States) </li>\
-    <li> *State’s share = 25% of the total premium (10% in case of J and K and NER States)\
-    </li><li> Artisan’s share = Rs.30/- for registration</li>\
-    *In case of non-consenting states, the State share will also be contributed by GOI.\
-    (NOTE: Except for OPD, the scheme shall align with *RSBY in respect of remaining parameters\
-    such as IP treatment and final limits decided per package for IP treatment by Ministry of Health\
-    and Family Welfare (MoHFW).\
-    </ol>\
-    *RSBY- Rashtriya Swasthya Bima Yojana )",
-
+    "BENEFITS OF SCHEME": "  table.",
+    
 
   }
 }
@@ -102,7 +95,11 @@ export default function FullScreenDialog() {
   return (
     <>
       <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "b"} dialogName="b" handleClose={handleClose} handleClickOpen={() => handleClickOpen("b")} {...d1} />
+      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
     </>
   );
 }
