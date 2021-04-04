@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 import About from "./about";
+import MostSearched from "./mostSearched";
 import Notification from "./Notification";
 import Links from "./Links";
 import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
@@ -8,10 +9,14 @@ import TextField from '@material-ui/core/TextField';
 import { green } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
 
+
 const useStyles = makeStyles((theme) => ({
     AboutUs: {
         backgroundColor: "#fc9c31",
         color: "white",
+    },
+    MostSearched: {
+        backgroundColor: "#ECF0FF",
     },
     SubscribeNow: {
         backgroundColor: "#100a33",
@@ -77,9 +82,15 @@ const Home = () => {
     const classes = useStyles();
     return (
         <div>
+            <Grid item container className={classes.MostSearched}>
+                <Grid item xs={0} sm={2} />
+                <Grid item xs={12} sm={8} ><MostSearched  /></Grid>
+
+                <Grid item xs={0} sm={2} />
+            </Grid>
             <Grid item container className={classes.AboutUs}>
                 <Grid item xs={0} sm={2} />
-                <Grid item xs={12} sm={8}><About /></Grid>
+                <Grid item xs={12} sm={8} ><About  /></Grid>
 
                 <Grid item xs={0} sm={2} />
             </Grid>
