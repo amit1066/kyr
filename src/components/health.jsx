@@ -32,7 +32,7 @@ function HealthDialog(props) {
   var entries = [];
   for (let [key, value] of Object.entries(props.data)) {
     entries.push([
-      <ListItem>
+      <ListItem key={key}>
         <ListItemText primary={key} secondary={value} />
       </ListItem>,
       <Divider />
