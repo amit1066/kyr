@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import About from "./about";
-import Notification from "./Notification";
-import Links from "./Links";
+import About from "./home/about";
+import Notification from "./home/Notification";
+import Links from "./home/Links";
 import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import { green } from "@material-ui/core/colors";

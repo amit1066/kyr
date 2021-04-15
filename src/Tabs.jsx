@@ -5,9 +5,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Home from './components/home/home'
-import Feedback from './components/home/feedback'
-import Credits from './components/home/credits'
-import Education from './components/home/education'
+import Feedback from './components/feedback'
+import Credits from './components/credits'
+import Education from './components/education'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Employment from './components/employment';
