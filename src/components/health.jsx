@@ -77,7 +77,7 @@ function HealthDialog(props) {
       <Policy title="Some policy" subtitle="lorem ipsum" short_text={props.short_text} />
 ||||||| 0c5ca09... Can add data in json (as in variable d1) and use it to display
       <Button variant="outlined" color="primary" onClick={props.handleClickOpen}>
-        {props.title} 
+        {props.title}
       </Button>
 =======
       <Button variant="outlined" color="primary" onClick={props.handleClickOpen}>
@@ -124,7 +124,24 @@ const d1 = {
     "ELIGIBILITY": "  All Craft persons( Handicraft artisans) whether male or female, between the age\
     group of one day to 80 years are eligible to avail the scheme.",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "BENEFITS OF SCHEME": "  table.",
+||||||| 0c5ca09... Can add data in json (as in variable d1) and use it to display
+    "BENEFITS OF SCHEME": "  table.",
+    
+=======
+    "BENEFITS OF SCHEME:": "  table.",
+    "Pattern of Financial Assistance: ": "<ol><li> GOI share = 75% of the total premium (90% in case of J and K and NER States) </li>\
+    <li> *State’s share = 25% of the total premium (10% in case of J and K and NER States)\
+    </li><li> Artisan’s share = Rs.30/- for registration</li>\
+    *In case of non-consenting states, the State share will also be contributed by GOI.\
+    (NOTE: Except for OPD, the scheme shall align with *RSBY in respect of remaining parameters\
+    such as IP treatment and final limits decided per package for IP treatment by Ministry of Health\
+    and Family Welfare (MoHFW).\
+    </ol>\
+    *RSBY- Rashtriya Swasthya Bima Yojana )",
+
+>>>>>>> parent of 0c5ca09... Can add data in json (as in variable d1) and use it to display
 ||||||| 0c5ca09... Can add data in json (as in variable d1) and use it to display
     "BENEFITS OF SCHEME": "  table.",
     
@@ -192,11 +209,7 @@ export default function FullScreenDialog() {
 ||||||| 0c5ca09... Can add data in json (as in variable d1) and use it to display
     <>
       <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "b"} dialogName="b" handleClose={handleClose} handleClickOpen={() => handleClickOpen("b")} {...d1} />
     </>
 =======
     <>
