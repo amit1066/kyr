@@ -83,7 +83,7 @@ const Home = () => {
             <Grid item container alignItems="left" justify="center" style={{
                 flexGrow: 1,
             }} className={classes.SubscribeNow}>
-                <Grid item spacing={0} justify="center" alignItems="center">
+                <Grid item spacing={0}>
                     <Typography variant="h4" gutterBottom> Feedback Form</Typography>
                     <form className={classes.root} noValidate>
                         <ThemeProvider theme={theme}>

@@ -95,11 +95,11 @@ export default function FullScreenDialog() {
   return (
     <>
       <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
-      <HealthDialog open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
+      <HealthDialog open={open === "b"} dialogName="b" handleClose={handleClose} handleClickOpen={() => handleClickOpen("b")} {...d1} />
+      <HealthDialog open={open === "c"} dialogName="c" handleClose={handleClose} handleClickOpen={() => handleClickOpen("c")} {...d1} />
+      <HealthDialog open={open === "d"} dialogName="d" handleClose={handleClose} handleClickOpen={() => handleClickOpen("d")} {...d1} />
+      <HealthDialog open={open === "e"} dialogName="e" handleClose={handleClose} handleClickOpen={() => handleClickOpen("e")} {...d1} />
+      <HealthDialog open={open === "f"} dialogName="f" handleClose={handleClose} handleClickOpen={() => handleClickOpen("f")} {...d1} />
     </>
   );
 }

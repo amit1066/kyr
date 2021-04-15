@@ -78,10 +78,10 @@ const Home = () => {
     return (
         <div>
             <Grid item container className={classes.AboutUs}>
-                <Grid item xs={0} sm={2} />
+                <Grid item  xs={false} sm={2} />
                 <Grid item xs={12} sm={8}><About /></Grid>
 
-                <Grid item xs={0} sm={2} />
+                <Grid item  xs={false} sm={2} />
             </Grid>
             <Grid item container>
                 <Grid item xs={12} sm={6}>
@@ -93,8 +93,8 @@ const Home = () => {
             </Grid>
             <Grid item container direction="row">
                 <Grid item xs={3} />
-                <Grid item xs={6} alignItems="center">
-                    <h1 alignItems="center">CONTACT US</h1>
+                <Grid item xs={6}>
+                    <h1>CONTACT US</h1>
                 </Grid>
                 <Grid item xs={3} />
             </Grid>
@@ -121,8 +121,8 @@ const Home = () => {
                     phone no: 9999999999
                 </Grid>
             </Grid>
-            <Grid item container alignItems="left" justify="center" style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
-                <Grid item spacing={0} justify="center" alignItems="center">
+            <Grid item container  ="left" style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
+                <Grid>
                     <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
                     <Typography variant="h5" gutterBottom>ENTER YOUR EMAIL ADDRESS TO GET UPDATES!</Typography>
                     <form className={classes.root} noValidate>
@@ -134,7 +134,7 @@ const Home = () => {
                                 variant="filled"
                                 id="email"
                             />
-                            <Button variant="contained" color="primary" size="small" classes={classes.button}>
+                            <Button variant="contained" color="primary" size="small" className={classes.button}>
                                 Subscribe
                             </Button>
                         </ThemeProvider>
