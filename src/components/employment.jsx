@@ -62,10 +62,10 @@ function Policy(props) {
   return (
     <Card className={classes.Policy}>
       <CardContent>
-        <Typography variant="h2" color="textSecondary" style={{ textAlign: "center" }} gutterBottom>
+        <Typography variant="h4" color="textSecondary" style={{ textAlign: "center" }} gutterBottom>
           {props.title}
         </Typography>
-        <Typography variant="h5" component="h2" color="textSecondary">
+        <Typography variant="h5" component="h2" style={{textAlign: "center"}} color="textSecondary">
           {props.subtitle}
         </Typography>
         <Typography variant="body2" component="p">
@@ -73,7 +73,7 @@ function Policy(props) {
         </Typography>
       </CardContent>
       <CardActions style={{ justifyContent: "center" }}>
-        <Button size="small" variant="outlined" className={classes.ReadMoreButton} onClick={props.handleClickOpen}> {props.title} </Button>
+        <Button size="small" variant="outlined" className={classes.ReadMoreButton} onClick={props.handleClickOpen}> READ MORE </Button>
       </CardActions>
       <Dialog fullScreen open={props.open} onClose={props.handleClose} TransitionComponent={Transition}>
         <AppBar className={classes.appBar}>
