@@ -5,7 +5,7 @@ import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
 import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
+
 import { green } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
 import GridList from '@material-ui/core/GridList';
@@ -14,66 +14,13 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+import mostSearchedArray from '../../data/mostSearched.json'
 import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 
-const DataArray = [
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum",
-    }
 
-]
 
 const useStyles2 = makeStyles((theme) => ({
     root: {
@@ -94,18 +41,18 @@ const useStyles2 = makeStyles((theme) => ({
     cardtitle: {
         fontSize: 14,
     },
-    tile:{
+    tile: {
         maxWidth: "15vw",
     },
     ReadButton: {
-        '&:hover' : {
+        '&:hover': {
             backGroundColor: "#5409bc",
         },
         color: "white",
     },
     tilebar: {
         backgroundColor: "#100a33",
-       
+
     },
     title: {
         color: theme.palette.primary.light,
@@ -135,7 +82,7 @@ function SingleLineGridList() {
     return (
         <div className={classes.root}>
             <GridList className={classes.gridList} cols={2.5}>
-                {DataArray.map((data) => (
+                {mostSearchedArray.map((data) => (
                     <GridListTile key={data.id} className={classes.tile}>
                         <Card className={classes.card} variant="outlined">
                             <CardContent>
@@ -152,9 +99,9 @@ function SingleLineGridList() {
                             </CardContent>
                         </Card>
                         <GridListTileBar
-                        className={classes.tilebar}
+                            className={classes.tilebar}
                             actionIcon={
-                                <Button color="primary"> Read </Button>
+                                <Button> Read </Button>
                             }
                         />
                     </GridListTile>
@@ -193,6 +140,10 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#ECF0FF",
         minHeight: "5rem",
         padding: "1rem",
+    },
+    Search:{
+        backGroundColor: "white",
+        marginRight: "10px",
     }
 }));
 
@@ -256,26 +207,22 @@ const Home = () => {
                 <Grid item xs={false} sm={2} />
             </Grid>
             <Grid item container className={classes.MostSearched}>
-                <Grid item sm ={2} xs={3}>
-                    <div className={classes.search}>
-                        <div className={classes.searchIcon}>
-                            <SearchIcon />
-                        </div>
-                        <InputBase
-                            placeholder="         Search…"
-                            classes={{
-                                root: classes.inputRoot,
-                                input: classes.inputInput,
-                            }}
-                            inputProps={{ 'aria-label': 'search' }}
-                        />
-                    </div>
+                <Grid item sm={2} xs={3}>
+                    <Autocomplete
+                        className={classes.Search}
+                        id="free-solo-demo"
+                        freeSolo
+                        options={mostSearchedArray.map((policy) => policy.title)}
+                        renderInput={(params) => (
+                            <TextField {...params} label="Search" margin="normal" variant="outlined" />
+                        )}
+                    />
                 </Grid>
                 <Grid item sm={10} xs={9}>
 
-                    <SingleLineGridList/>
+                    <SingleLineGridList />
                 </Grid>
-                
+
             </Grid>
             <Grid item container>
                 <Grid item xs={12} sm={6}>
