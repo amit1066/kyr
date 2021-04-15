@@ -49,9 +49,11 @@ function Policy(props) {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
   var entries = [];
+  var i = 0;
   for (let [key, value] of Object.entries(props.data)) {
+    i++;
     entries.push([
-      <ListItem key={key}>
+      <ListItem key={i.toString()}>
         <ListItemText primary={key} secondary={value} />
       </ListItem>,
       <Divider />
@@ -135,7 +137,7 @@ function HealthDialog(props) {
   );
 }
 const d1 = {
-  title: "rerfdfe",
+  title: "Rajiv Gandhi Shilpi Swasthya Bima Yojana",
   subtitle: "subtitle",
   short_text: "short text",
   data: {
@@ -180,7 +182,7 @@ export default function FullScreenDialog() {
           <Policy open={open === "v"} dialogName="v" handleClose={handleClose} handleClickOpen={() => handleClickOpen("v")} {...d1} />
         </Grid>
         <Grid item xs={5} sm={4} style={{ margin: "20px" }} >
-        <Policy open={open === "c"} dialogName="c" handleClose={handleClose} handleClickOpen={() => handleClickOpen("c")} {...d1} />
+          <Policy open={open === "c"} dialogName="c" handleClose={handleClose} handleClickOpen={() => handleClickOpen("c")} {...d1} />
         </Grid>
 
         <Grid item  xs={false} sm={2} />
