@@ -121,7 +121,7 @@ const Home = () => {
                     phone no: 9999999999
                 </Grid>
             </Grid>
-            <Grid item container  ="left" style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
+            <Grid item container  style={{minHeight: '50vh'}} className={classes.SubscribeNow}>
                 <Grid>
                     <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
                     <Typography variant="h5" gutterBottom>ENTER YOUR EMAIL ADDRESS TO GET UPDATES!</Typography>
