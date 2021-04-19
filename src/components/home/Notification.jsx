@@ -24,6 +24,12 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+  notice: {
+    color: '#FE68B8',
+    borderRadius: 3,
+    height: 48,
+    padding: '0 30px',
+  },
 });
 
 export default function SimpleCard() {
@@ -36,20 +42,19 @@ export default function SimpleCard() {
       <Card style={{backgroundColor: "#100a33", color: "white"}} >
         <CardContent>
           
-          <Typography variant="h5" component="h2">
+          <Typography variant="h5" component="h2" align='center'>
             NOTIFICATIONS
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            abcxyz
+          <Typography className={classes.pos} color="white">
+            <Button className={classes.notice}>abcxyz</Button>
           </Typography>
-          <Typography variant="body2" component="p">
-            whatever
-            <br />
-            <br/>
-            <br/>
-            
-            {'statement'}
+          <Typography className={classes.pos} color="white">
+            <Button className={classes.notice}>abcxyz</Button>
           </Typography>
+          <Typography className={classes.pos} color="white">
+            <Button className={classes.notice}>abcxyz</Button>
+          </Typography>
+          
         </CardContent>
         <CardActions>
           <Button size="small">Learn More</Button>

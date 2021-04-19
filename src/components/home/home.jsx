@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, InputBase } from "@material-ui/core";
+import { Grid, Typography, InputBase, Paper } from "@material-ui/core";
 import SearchIcon from '@material-ui/icons/Search';
 import About from "./about";
 import Notification from "./Notification";
@@ -19,7 +19,15 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import mostSearchedArray from '../../data/mostSearched.json'
 import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
-
+import Box from '@material-ui/core/Box';
+import contact from './contact';
+import '../../App.css';
+import {
+    FadeInSectionBottom,
+    FadeInSectionLeft,
+    FadeInSectionRight,
+    FadeInSectionTop,
+  } from "../common/fadeIn";
 
 
 const useStyles2 = makeStyles((theme) => ({
@@ -144,7 +152,14 @@ const useStyles = makeStyles((theme) => ({
     Search:{
         backGroundColor: "white",
         marginRight: "10px",
-    }
+    },
+    Contacts: {
+        backgroundColor: "#CFD5FA",
+        overflow: "visible",
+        borderRadius: 3,
+        height: 48,
+        padding: '0 30px',
+      },
 }));
 
 const useStylesSearch = makeStyles((theme) => ({
@@ -186,6 +201,7 @@ const useStylesReddit = makeStyles((theme) => ({
             boxShadow: `${fade(theme.palette.primary.main, 0.25)} 0 0 0 2px`,
             borderColor: theme.palette.primary.main,
         },
+        
     },
     focused: {},
 }));
@@ -235,33 +251,50 @@ const Home = () => {
             <Grid item container direction="row">
                 <Grid item xs={3} />
                 <Grid item xs={6} >
-                    <h1 >CONTACT US</h1>
+                    <h1 align='center' font='Calibri' >CONTACT US</h1>
                 </Grid>
                 <Grid item xs={3} />
             </Grid>
-            <Grid item container direction="row">
-
-                <Grid item xs={12} sm={6}>
-                    phone no:9999999999
-                 </Grid>
-
-                <Grid item xs={12} sm={6}>
-                    phone no:9999999999
-                </Grid>
-
-                <Grid item xs={12} sm={6}>
-                    phone no:9999999999
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    phone no: 9999999999
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    phone no:9999999999
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    phone no: 9999999999
-                </Grid>
-            </Grid>
+            <Grid item container >
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+        
+        <Grid item  xs={false} sm={2} />
+      </Grid>
+            <Grid item xs={4}>
+            <FadeInSectionRight>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="flex-start"
+                alignItems="center"
+              >
+                <Box
+                  display="flex"
+                  flexDirection="row"
+                  justifyContent="flex-start"
+                  alignItems="center"
+                  pt={10}
+                  width="100%"
+                  pl={5}
+                  
+                >
+                  <Typography variant="h5" className={classes.heading}>
+                    Email address:
+                  </Typography>
+                </Box>
+                <Typography variant="body1" className={classes.body}>
+                  kyr@gmail.com
+                </Typography>
+              </Box>
+            </FadeInSectionRight>
+          </Grid>
+            
+           
             <Grid item container justify="center" style={{ minHeight: '50vh' }} className={classes.SubscribeNow}>
                 <Grid item >
                     <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
