@@ -223,76 +223,44 @@ const Home = () => {
                 <Grid item xs={false} sm={2} />
             </Grid>
             <Grid item container className={classes.MostSearched}>
-                <Grid item sm={2} xs={3}>
-                    <Autocomplete
-                        className={classes.Search}
-                        id="free-solo-demo"
-                        freeSolo
-                        options={mostSearchedArray.map((policy) => policy.title)}
-                        renderInput={(params) => (
-                            <TextField {...params} label="Search" margin="normal" variant="outlined" />
-                        )}
-                    />
-                </Grid>
-                <Grid item sm={10} xs={9}>
+            
+                <Grid item sm={12} xs={12}>
 
                     <SingleLineGridList />
-                </Grid>
+                </Grid> 
 
             </Grid>
             <Grid item container>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12} >
                     <Notification />
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12}>
+                    <br/>
+                    <br/>
+                    <br/>
+                </Grid>
+                <Grid item xs={12} >
                     <Links />
                 </Grid>
             </Grid>
             <Grid item container direction="row">
                 <Grid item xs={3} />
                 <Grid item xs={6} >
-                    <h1 align='center' font='Calibri' >CONTACT US</h1>
+                    <h1 align='center' font='Calibri' >IMPORTANT CONTACTS</h1>
                 </Grid>
                 <Grid item xs={3} />
             </Grid>
             <Grid item container >
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
-                <Grid item xs={12} sm={6} align='center'><Button className={classes.Contacts}>Mr. X: 999999999</Button></Grid>
+                <Grid item xs={12} sm={6} align='center' ><Paper  elevation='3'  ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation='3' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation='3' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
         
         <Grid item  xs={false} sm={2} />
       </Grid>
-            <Grid item xs={4}>
-            <FadeInSectionRight>
-              <Box
-                display="flex"
-                flexDirection="column"
-                justifyContent="flex-start"
-                alignItems="center"
-              >
-                <Box
-                  display="flex"
-                  flexDirection="row"
-                  justifyContent="flex-start"
-                  alignItems="center"
-                  pt={10}
-                  width="100%"
-                  pl={5}
-                  
-                >
-                  <Typography variant="h5" className={classes.heading}>
-                    Email address:
-                  </Typography>
-                </Box>
-                <Typography variant="body1" className={classes.body}>
-                  kyr@gmail.com
-                </Typography>
-              </Box>
-            </FadeInSectionRight>
-          </Grid>
+            
             
            
             <Grid item container justify="center" style={{ minHeight: '50vh' }} className={classes.SubscribeNow}>
