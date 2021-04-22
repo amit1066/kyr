@@ -12,7 +12,8 @@ import Misc from './components/miscellaneous'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Employment from './components/employment';
-import Health from './components/health'
+import Health from './components/health';
+import TeamBehindKYR from './components/team_behind_kyr';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,6 +85,7 @@ export default function ScrollableTabsButtonAuto() {
           <Tab label="Miscellaneous" {...a11yProps(4)} />
           <Tab label="Feedback" {...a11yProps(5)} />
           <Tab label="Credits" {...a11yProps(6)} />
+          <Tab label="Team behind KYR" {...a11yProps(7)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -107,6 +109,9 @@ export default function ScrollableTabsButtonAuto() {
       </TabPanel>
       <TabPanel value={value} index={6}>
         <Credits/>
+      </TabPanel>
+      <TabPanel value={value} index={7}>
+        <TeamBehindKYR/>
       </TabPanel>
     </div>
   );
