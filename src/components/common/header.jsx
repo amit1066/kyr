@@ -28,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
       width: 'auto',
     },
   },
+  inputInput:{
+    padding: '1rem 1rem 0.5rem 2.5rem',
+  },
   
   
   searchIcon: {
