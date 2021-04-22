@@ -4,7 +4,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
-import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
+import { makeStyles, withStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
 
 import { green } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
@@ -54,30 +54,26 @@ const useStyles2 = makeStyles((theme) => ({
     },
     tilebar: {
         backgroundColor: "#100a33",
+        
 
+    },
+    ReadButton: {
+        backgroundColor: '#6d08a0',
+        textPrimary: 'white',
+        
     },
     title: {
         color: theme.palette.primary.light,
     },
 }));
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
+const ReadButton = withStyles({
+    root: {
+        backgroundColor: '#6d08a0',
+        color: 'white',
+    }
+})(Button);
+
 function SingleLineGridList() {
     const classes = useStyles2();
     var i = 1;
@@ -103,7 +99,7 @@ function SingleLineGridList() {
                         <GridListTileBar
                             className={classes.tilebar}
                             actionIcon={
-                                <Button> Read </Button>
+                                <ReadButton>Read</ReadButton>
                             }
                         />
                     </GridListTile>
@@ -112,7 +108,6 @@ function SingleLineGridList() {
         </div>
     );
 }
-
 
 const useStyles = makeStyles((theme) => ({
     AboutUs: {
