@@ -4,7 +4,8 @@ import { fade, makeStyles } from "@material-ui/core/styles";
 
 import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
-
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
 const useStyles = makeStyles((theme) => ({
   typographyStyles: {
     flex: 1,
@@ -58,6 +59,14 @@ const Header = () => {
         <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
           KNOW YOUR RIGHTS
         </Typography>
+        <a href="facebook.com">
+          
+          <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
+        </a>
+        <a href="twitter.com">
+
+          <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
+        </a>
         <div className={classes.search}>
           <div className={classes.searchIcon}>
             <SearchIcon />
