@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   inputInput:{
-    padding: '1rem 1rem 0.5rem 2.5rem',
+    padding: '1rem 1rem 1rem 2.8rem',
   },
   
   
@@ -59,11 +59,11 @@ const Header = () => {
         <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
           KNOW YOUR RIGHTS
         </Typography>
-        <a href="facebook.com">
+        <a href="https://www.facebook.com">
           
           <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
         </a>
-        <a href="twitter.com">
+        <a href="https://www.twitter.com">
 
           <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
         </a>

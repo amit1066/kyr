@@ -37,7 +37,7 @@ export default function SimpleCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Box pl={20} className={classes.root} alignItems="center" mr={0.5}>
+    <Box pl={20} className={classes.root} alignItems="center">
       
       <Card style={{backgroundColor: "#100a33", color: "white"}} >
         <CardContent>
