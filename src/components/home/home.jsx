@@ -52,12 +52,6 @@ const useStyles2 = makeStyles((theme) => ({
     tile: {
         maxWidth: "15vw",
     },
-    ReadButton: {
-        '&:hover': {
-            backGroundColor: "#5409bc",
-        },
-        color: "white",
-    },
     tilebar: {
         backgroundColor: "#100a33",
 
@@ -150,7 +144,7 @@ const useStyles = makeStyles((theme) => ({
         padding: "1rem",
     },
     Search:{
-        backGroundColor: "white",
+        backgroundColor: "white",
         marginRight: "10px",
     },
     Contacts: {
@@ -251,12 +245,12 @@ const Home = () => {
                 <Grid item xs={3} />
             </Grid>
             <Grid item container >
-                <Grid item xs={12} sm={6} align='center' ><Paper  elevation='3'  ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper elevation='3' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper elevation='3' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper backGroundColor='#fcfcfb' ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center' ><Paper  elevation={3}  ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper  elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3} ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3} ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
         
         <Grid item  xs={false} sm={2} />
       </Grid>
