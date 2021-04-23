@@ -51,6 +51,10 @@ const useStyles2 = makeStyles((theme) => ({
     },
     tile: {
         maxWidth: "15vw",
+        [theme.breakpoints.down('sm')]: {
+            minWidth: "180px",
+        },
+        
     },
     tilebar: {
         backgroundColor: "#100a33",
@@ -113,6 +117,7 @@ const useStyles = makeStyles((theme) => ({
     AboutUs: {
         backgroundColor: "#fc9c31",
         color: "white",
+        padding: "1px 6px",
     },
     SubscribeNow: {
         backgroundColor: "#100a33",
