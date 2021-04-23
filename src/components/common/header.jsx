@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Box } from "@material-ui/core";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { fade, makeStyles } from "@material-ui/core/styles";
 
 import InputBase from '@material-ui/core/InputBase';
@@ -9,7 +9,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 const useStyles = makeStyles((theme) => ({
   typographyStyles: {
     flex: 1,
-    color: "#fe8500",
+    color:"#fe8500",
   },
   grow: {
     flexGrow: 0,
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
       width: 'auto',
     },
   },
-  inputInput: {
+  inputInput:{
     padding: theme.spacing(1, 1, 1, 0),
     paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
     transition: theme.transitions.create('width'),
@@ -41,10 +41,10 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   },
-
+  
   root: {
     flexGrow: 1,
-  },
+  },  
   searchIcon: {
     padding: theme.spacing(0, 2),
     height: '100%',
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
   appbarStyle: {
     //paddingBottom:"",
     backgroundColor: "#c5cbf5",
-
+    
   }
 
 }));
@@ -65,47 +65,39 @@ const useStyles = makeStyles((theme) => ({
 const Header = () => {
   const classes = useStyles();
   return (
-    <div className={classes.root} >
+  <div className={classes.root} >
 
-      <AppBar position="static">
-        <Toolbar className={classes.appbarStyle}>
-          <Box flexWrap="wrap" display="flex">
-            <Box flexGrow={1}> 
-              <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
-                KNOW YOUR RIGHTS
+    <AppBar position="static">
+      <Toolbar className={classes.appbarStyle}>
+        <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
+          KNOW YOUR RIGHTS
         </Typography>
-              
-            </Box>
-            <a href="https://www.facebook.com">
+        <a href="https://www.facebook.com">
+          
+          <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
+        </a>
+        <a href="https://www.twitter.com">
 
-                <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
-              </a>
-              <a href="https://www.twitter.com">
-
-                <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
-              </a>
-
-            <Box>
-              <div className={classes.search}>
-                <div className={classes.searchIcon}>
-                  <SearchIcon />
-                </div>
-                <InputBase
-                  placeholder="Search…"
-                  classes={{
-                    root: classes.inputRoot,
-                    input: classes.inputInput,
-                  }}
-                  inputProps={{ 'aria-label': 'search' }}
-                />
-              </div>
-
-            </Box>
-          </Box>
-          <div className={classes.grow} />
-        </Toolbar>
-      </AppBar>
-    </div>
+          <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
+        </a>
+        <br/>
+        <div className={classes.search}>
+          <div className={classes.searchIcon}>
+            <SearchIcon />
+          </div>
+          <InputBase
+            placeholder="Search…"
+            classes={{
+              root: classes.inputRoot,
+              input: classes.inputInput,
+            }}
+            inputProps={{ 'aria-label': 'search' }}
+          />
+        </div>
+        <div className={classes.grow} />
+      </Toolbar>
+    </AppBar>
+  </div>
   );
 };
 
