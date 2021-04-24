@@ -166,26 +166,26 @@ export default function FullScreenDialog() {
   return (
     <>
       <Grid item container >
-        <Grid item  xs={false} sm={2} />
-        <Grid item xs={5} sm={4} style={{ margin: "20px" }}>
+        <Grid item  xs={false} sm={1} />
+        <Grid item xs={12} sm={4} style={{ margin: "20px" }}>
           <Policy open={open === "a"} dialogName="a" handleClose={handleClose} handleClickOpen={() => handleClickOpen("a")} {...d1} />
         </Grid>
-        <Grid item xs={5} sm={4} style={{ margin: "20px" }} >
+        <Grid item xs={12} sm={4} style={{ margin: "20px" }} >
           <Policy open={open === "b"} dialogName="b" handleClose={handleClose} handleClickOpen={() => handleClickOpen("b")} {...d1} />
         </Grid>
 
-        <Grid item  xs={false} sm={2} />
+        <Grid item  xs={false} sm={1} />
       </Grid>
       <Grid item container >
-        <Grid item  xs={false} sm={2} />
-        <Grid item xs={5} sm={4}  style={{ margin: "20px" }}>
+        <Grid item  xs={false} sm={1} />
+        <Grid item xs={12} sm={4}  style={{ margin: "20px" }}>
           <Policy open={open === "v"} dialogName="v" handleClose={handleClose} handleClickOpen={() => handleClickOpen("v")} {...d1} />
         </Grid>
-        <Grid item xs={5} sm={4} style={{ margin: "20px" }} >
+        <Grid item xs={12} sm={4} style={{ margin: "20px" }} >
           <Policy open={open === "c"} dialogName="c" handleClose={handleClose} handleClickOpen={() => handleClickOpen("c")} {...d1} />
         </Grid>
 
-        <Grid item  xs={false} sm={2} />
+        <Grid item  xs={false} sm={1} />
       </Grid>
     </>
   );
