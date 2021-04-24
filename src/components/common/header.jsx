@@ -24,8 +24,12 @@ const useStyles = makeStyles((theme) => ({
     width: 'auto',
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(1),
+      marginRight: theme.spacing(1),
       width: 'auto',
     },
+    [theme.breakpoints.down('xs')]: {
+      marginBottom: theme.spacing(1),
+    }
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
@@ -69,25 +73,22 @@ const Header = () => {
       <AppBar position="static">
         <Toolbar className={classes.appbarStyle}>
           <Box flexWrap="wrap" display="flex" flexGrow={1}>
-            <Box> 
+            <Box>
               <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
                 KNOW YOUR RIGHTS
-        </Typography>
-              
+              </Typography>
             </Box>
             <Box alignSelf="center">
-
-            <a href="https://www.facebook.com">
-
+              <a href="https://www.facebook.com">
                 <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
               </a>
               <a href="https://www.twitter.com">
-
                 <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
               </a>
             </Box>
+            <Box flexGrow={1} />
 
-            <Box flexShrink={1} alignSelf = "center">
+            <Box flexShrink={1} alignSelf="center">
               <div className={classes.search}>
                 <div className={classes.searchIcon}>
                   <SearchIcon />
