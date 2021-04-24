@@ -78,6 +78,7 @@ const Header = () => {
                 KNOW YOUR RIGHTS
               </Typography>
             </Box>
+            <Box flexGrow={1} />
             <Box alignSelf="center">
               <a href="https://www.facebook.com">
                 <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
@@ -86,7 +87,6 @@ const Header = () => {
                 <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
               </a>
             </Box>
-            <Box flexGrow={1} />
 
             <Box flexShrink={1} alignSelf="center">
               <div className={classes.search}>
