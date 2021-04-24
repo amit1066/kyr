@@ -210,11 +210,15 @@ const Home = () => {
     const classes = useStyles();
     return (
         <div>
-            <Grid item container className={classes.AboutUs}>
-                <Grid item xs={false} sm={2} />
-                <Grid item xs={12} sm={8}><About /></Grid>
+            <Grid item container >
+                <Grid item xs={12} >
+                    <Notification />
+                </Grid>
+                <Grid item xs={false} sm={2} style={{backgroundColor: "#fc9c31"}} />
+                <Grid item xs={12} sm={8} className={classes.AboutUs}><About /></Grid>
 
-                <Grid item xs={false} sm={2} />
+                <Grid item xs={false} sm={2} style={{backgroundColor: "#fc9c31"}}/>
+                
             </Grid>
             <Grid item container className={classes.MostSearched}>
             
@@ -222,20 +226,10 @@ const Home = () => {
 
                     <SingleLineGridList />
                 </Grid> 
-
-            </Grid>
-            <Grid item container>
-                <Grid item xs={12} >
-                    <Notification />
-                </Grid>
-                <Grid item xs={12}>
-                    <br/>
-                    <br/>
-                    <br/>
-                </Grid>
                 <Grid item xs={12} >
                     <Links />
                 </Grid>
+
             </Grid>
             <Grid item container direction="row">
                 <Grid item xs={3} />
