@@ -12,22 +12,10 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import TextField from '@material-ui/core/TextField';
-import Autocomplete from '@material-ui/lab/Autocomplete';
 import mostSearchedArray from '../../data/mostSearched.json'
-import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
-import Box from '@material-ui/core/Box';
-import contact from './contact';
 import '../../App.css';
-import {
-    FadeInSectionBottom,
-    FadeInSectionLeft,
-    FadeInSectionRight,
-    FadeInSectionTop,
-  } from "../common/fadeIn";
 
 
 const useStyles2 = makeStyles((theme) => ({
@@ -54,17 +42,17 @@ const useStyles2 = makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             minWidth: "180px",
         },
-        
+
     },
     tilebar: {
         backgroundColor: "#100a33",
-        
+
 
     },
     ReadButton: {
         backgroundColor: '#6d08a0',
         textPrimary: 'white',
-        
+
     },
     title: {
         color: theme.palette.primary.light,
@@ -143,9 +131,10 @@ const useStyles = makeStyles((theme) => ({
         minHeight: "5rem",
         padding: "1rem",
     },
-    Search:{
+    Search: {
         backgroundColor: "white",
         marginRight: "10px",
+        marginLeft: "auto",
     },
     Contacts: {
         backgroundColor: "#CFD5FA",
@@ -153,7 +142,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 3,
         height: 48,
         padding: '0 30px',
-      },
+    },
 }));
 
 const useStylesSearch = makeStyles((theme) => ({
@@ -195,7 +184,7 @@ const useStylesReddit = makeStyles((theme) => ({
             boxShadow: `${fade(theme.palette.primary.main, 0.25)} 0 0 0 2px`,
             borderColor: theme.palette.primary.main,
         },
-        
+
     },
     focused: {},
 }));
@@ -214,18 +203,18 @@ const Home = () => {
                 <Grid item xs={12} >
                     <Notification />
                 </Grid>
-                <Grid item xs={false} sm={2} style={{backgroundColor: "#fc9c31"}} />
+                <Grid item xs={false} sm={2} style={{ backgroundColor: "#fc9c31" }} />
                 <Grid item xs={12} sm={8} className={classes.AboutUs}><About /></Grid>
 
-                <Grid item xs={false} sm={2} style={{backgroundColor: "#fc9c31"}}/>
-                
+                <Grid item xs={false} sm={2} style={{ backgroundColor: "#fc9c31" }} />
+
             </Grid>
             <Grid item container className={classes.MostSearched}>
-            
+
                 <Grid item sm={12} xs={12}>
 
                     <SingleLineGridList />
-                </Grid> 
+                </Grid>
                 <Grid item xs={12} >
                     <Links />
                 </Grid>
@@ -238,19 +227,19 @@ const Home = () => {
                 </Grid>
                 <Grid item xs={3} />
             </Grid>
-            <Grid item container >
-                <Grid item xs={12} sm={6} align='center' ><Paper  elevation={3}  ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper  elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-                <Grid item xs={12} sm={6} align='center'><Paper elevation={3} ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+            <Grid item container>
+                <Grid item xs={12} sm={6} align='center' ><Paper elevation={3}  ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
                 <Grid item xs={12} sm={6} align='center'><Paper elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
                 <Grid item xs={12} sm={6} align='center'><Paper elevation={3} ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
                 <Grid item xs={12} sm={6} align='center'><Paper elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
-        
-        <Grid item  xs={false} sm={2} />
-      </Grid>
-            
-            
-           
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3} ><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+                <Grid item xs={12} sm={6} align='center'><Paper elevation={3}><Button className={classes.Contacts}>Mr. X: 999999999</Button></Paper> </Grid>
+
+                <Grid item xs={false} sm={2} />
+            </Grid>
+
+
+
             <Grid item container justify="center" style={{ minHeight: '50vh' }} className={classes.SubscribeNow}>
                 <Grid item >
                     <Typography variant="h4" gutterBottom> SUBSCRIBE NOW!</Typography>
