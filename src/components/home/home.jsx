@@ -73,7 +73,7 @@ function SingleLineGridList() {
         <div className={classes.root}>
             <GridList className={classes.gridList} cols={2.5}>
                 {mostSearchedArray.map((data) => (
-                    <GridListTile key={data.id} className={classes.tile}>
+                    <GridListTile key={i} className={classes.tile}>
                         <Card className={classes.card} variant="outlined">
                             <CardContent>
                                 <Typography className={classes.cardtitle} color="textSecondary" gutterBottom>
