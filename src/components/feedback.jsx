@@ -1,8 +1,5 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import About from "./home/about";
-import Notification from "./home/Notification";
-import Links from "./home/Links";
 import { makeStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import { green } from "@material-ui/core/colors";
@@ -18,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
     SubscribeNow: {
         backgroundColor: "#100a33",
-        color: "white",
+        
         padding: "1.5rem",
     },
     root: {
@@ -31,8 +28,8 @@ const useStyles = makeStyles((theme) => ({
     },
     button: {
         display: 'inline-block',
-        maxHeight: "1rem",
-        padding: '0px',
+        
+        padding: '1rem 1rem',
 
     }
 }));
@@ -73,30 +70,31 @@ const useStylesReddit = makeStyles((theme) => ({
 function RedditTextField(props) {
     const classes = useStylesReddit();
 
-    return <TextField InputProps={{ classes, disableUnderline: true }} {...props} />;
+    return <TextField fullWidth InputProps={{ classes, disableUnderline: true }} {...props} />;
 }
 
 const Home = () => {
     const classes = useStyles();
     return (
         <div>
-            <Grid item container alignItems="left" justify="center" style={{
+            <Grid item container justify="center" style={{
                 flexGrow: 1,
             }} className={classes.SubscribeNow}>
-                <Grid item spacing={0} justify="center" alignItems="center">
-                    <Typography variant="h4" gutterBottom> Feedback Form</Typography>
+                <Grid item xs = {12}>
+                    <Typography variant="h4" align="center" color="primary"> Feedback Form</Typography>
                     <form className={classes.root} noValidate>
                         <ThemeProvider theme={theme}>
-                            <Grid item container>
+                        <Grid container direction="column">
+                            <Grid item>
                                 <RedditTextField
                                     label="Name"
                                     className={classes.margin}
                                     default-value=""
                                     variant="filled"
-                                    id="email"
+                                    id="name"
                                 />
                             </Grid>
-                            <Grid item container>
+                            <Grid item>
                                 <RedditTextField
                                     label="Email"
                                     className={classes.margin}
@@ -105,7 +103,7 @@ const Home = () => {
                                     id="email"
                                 />
                             </Grid>
-                            <Grid item container>
+                            <Grid item>
                                 <RedditTextField
                                     label="Comments"
                                     className={classes.margin}
@@ -114,10 +112,11 @@ const Home = () => {
                                     id="email"
                                 />
                             </Grid>
-                            <Grid item container>
-                                <Button variant="contained" color="primary" size="small" classes={classes.button}>
+                            <Grid item>
+                                <Button variant="contained" color="primary" size="small" className={classes.button}>
                                     Send Feedback
                                 </Button>
+                            </Grid>
                             </Grid>
                         </ThemeProvider>
                     </form>

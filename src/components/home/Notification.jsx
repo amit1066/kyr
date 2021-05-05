@@ -13,47 +13,42 @@ const useStyles = makeStyles({
     minWidth: 275,
     backgroundColor: "#100a33",
   },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
   title: {
     fontSize: 14,
   },
   pos: {
-    marginBottom: 12,
+  },
+  notice: {
+    color: '#FE68B8',
+    borderRadius: 3,
+
+    padding: '0 1rem',
   },
 });
 
 export default function SimpleCard() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Box pl={20} className={classes.root} alignItems="center" mr={0.5}>
+    <Box className={classes.root} alignItems="center">
       
       <Card style={{backgroundColor: "#100a33", color: "white"}} >
         <CardContent>
           
-          <Typography variant="h5" component="h2">
+          <Typography variant="h5" component="h2" align='center'>
             NOTIFICATIONS
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            abcxyz
+          <Typography className={classes.pos} >
+            <Button className={classes.notice}>abcxyz</Button>
           </Typography>
-          <Typography variant="body2" component="p">
-            whatever
-            <br />
-            <br/>
-            <br/>
-            
-            {'statement'}
+          <Typography className={classes.pos} >
+            <Button className={classes.notice}>abcxyz</Button>
           </Typography>
+          <Typography className={classes.pos} >
+            <Button className={classes.notice}>abcxyz</Button>
+          </Typography>
+          
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
     </Box>
   );

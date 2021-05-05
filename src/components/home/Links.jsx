@@ -10,6 +10,7 @@ import { Box } from '@material-ui/core';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
+    marginTop: '1.5rem',
   },
   bullet: {
     display: 'inline-block',
@@ -21,6 +22,12 @@ const useStyles = makeStyles({
   },
   pos: {
     marginBottom: 12,
+  },
+  notice: {
+    color: '#FE68B8',
+    borderRadius: 3,
+    height: 48,
+    padding: '0 30px',
   },
 });
 
@@ -34,18 +41,18 @@ export default function SimpleCard() {
       <Card className={classes.root} style={{backgroundColor: "#100a33", color: "white"}}>
         <CardContent>
           
-          <Typography variant="h5" component="h2">
+          <Typography variant="h5" component="h2" align= 'center'>
             LINKS
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             abcxyz
           </Typography>
           <Typography variant="body2" component="p">
-            {bull}link 1 
+            {bull} <Button className={classes.notice}>abcxyz</Button>
             <br />
-            {bull}link 2
+            {bull} <Button className={classes.notice}>abcxyz</Button>
             <br />
-            {bull}link 3
+            {bull} <Button className={classes.notice}>abcxyz</Button>
             <br />
             {'statement'}
           </Typography>

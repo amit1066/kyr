@@ -1,8 +1,7 @@
 import React from 'react';
-import { Grid, Typography } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
+<<<<<<< HEAD
 
-import { Grid } from "@material-ui/core";
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -214,6 +213,12 @@ const d1 = {
     and Family Welfare (MoHFW).\
     </ol>\
     *RSBY- Rashtriya Swasthya Bima Yojana )",
+=======
+import Box from '@material-ui/core/Box';
+
+import HealthArray from '../data/health/healthdata.json';
+import Policy from './policy.jsx';
+>>>>>>> 3e397577cf5cd41dc9fcae8f1fafb41ec6baef86
 
 >>>>>>> parent of 0c5ca09... Can add data in json (as in variable d1) and use it to display
 ||||||| 0c5ca09... Can add data in json (as in variable d1) and use it to display
@@ -231,6 +236,7 @@ const d1 = {
     </ol>\
     *RSBY- Rashtriya Swasthya Bima Yojana )",
 
+<<<<<<< HEAD
 >>>>>>> parent of 0c5ca09... Can add data in json (as in variable d1) and use it to display
 =======
 
@@ -241,6 +247,19 @@ const d1 = {
   short_text: "Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the\
   artisan community to access the best of healthcare facilities in the country. "
 }
+=======
+const useStyles2 = makeStyles((theme) => ({
+  PolicyBox: {
+    [theme.breakpoints.down('sm')]: {
+      minWidth: "300px"
+    },
+    [theme.breakpoints.up('sm')]: {
+      maxWidth: "30%"
+    }
+    
+  }
+}));
+>>>>>>> 3e397577cf5cd41dc9fcae8f1fafb41ec6baef86
 export default function FullScreenDialog() {
   const [open, setOpen] = React.useState(false);
 
@@ -248,11 +267,13 @@ export default function FullScreenDialog() {
 
     setOpen(thisTab);
   };
-
+  const classes = useStyles2();
   const handleClose = () => {
     setOpen(false);
   };
+  
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div>
       <Grid item container >
@@ -318,5 +339,18 @@ export default function FullScreenDialog() {
 >>>>>>> 2b412c5c54440661ed536dfb7596e4345e5e36f9
     </>
 >>>>>>> parent of 0c5ca09... Can add data in json (as in variable d1) and use it to display
+=======
+    <Box display="flex" p={1} style={{ width: '100%' }} flexWrap="wrap" flexDirection="row" justifyContent="center">
+      
+      {HealthArray.map((data, i) => (
+        <Box m={2} className={classes.PolicyBox} key={i}>
+          <Policy open={open === i}  handleClose={handleClose} handleClickOpen={() => handleClickOpen(i)} {...data} />
+          
+        </Box>
+                      
+      ))}
+    </Box>
+
+>>>>>>> 3e397577cf5cd41dc9fcae8f1fafb41ec6baef86
   );
 }

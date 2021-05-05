@@ -1,57 +1,165 @@
 [
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "edu1",
+        "title": "Integrated Child Development Services",
+        "subtitle": "education",
+        "text": "To provide food, pre-school education, primary health care, immunization, health check-up and referral services to children under 6 years of age and to their mothers."
+    },
+	{
+        "id": "edu2",
+        "title": "Navodaya Vidyalaya Scheme",
+        "subtitle": "education",
+        "text": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions."
+    },
+	{
+        "id": "edu3",
+        "title": "Lal Bahadur Shastri Scholarship",
+        "subtitle": "education",
+        "text": "To provide financial support to meritorious students of economically weaker sections of society."
+    },
+	{
+        "id": "edu4",
+        "title": "National Means-Cum-Merit Scholarship Scheme(NMMSS)",
+        "subtitle": "education",
+        "text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships."
+    },
+	{
+        "id": "edu5",
+        "title": "National Scheme Incentives to Girls for Secondary Education (NSIGSE)",
+        "subtitle": "education",
+        "text": "To provide a further incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school."
+    },
+	{
+        "id": "edu6",
+        "title": "Samagra Shiksha",
+        "subtitle": "education",
+        "text": "To ensure inclusive and equitable quality education at all levels of school education."
+    },
+	{
+        "id": "edu7",
+        "title": "Central Sector Scheme Of Scholarship (CSSS)",
+        "subtitle": "education",
+        "text": "To provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "emp1",
+        "title": "National Career Service",
+        "subtitle": "employment",
+        "text": "To primarily connect the opportunities with the aspirations of youth. The scheme facilitates registration of job seekers, job providers, skill providers, career counsellors, etc. and provides job matching services in a highly transparent and user friendly manner."
+    },
+	{
+        "id": "emp2",
+        "title": "Sampoorna Grameen Rozgar Yojana",
+        "subtitle": "employment",
+        "text": "To attain the aim of providing gainful employment for the rural poor of the country. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "health1",
+        "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojna",
+        "subtitle": "health",
+        "text": "To provide financial aid to the artisan community to access the best of healthcare facilities in the country."
+    },
+	{
+        "id": "health2",
+        "title": "Rashtriya Swasthya Bima Yojana",
+        "subtitle": "health",
+        "text": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme."
+    },
+	{
+        "id": "health3",
+        "title": "Suvidha",
+        "subtitle": "health",
+        "text": "Under this campaign, sanitary napkins are being made available at a minimum cost of Re 1 in more than 6300 Pradhanmantti Jan Aushadhi Centers across the country."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "house1",
+        "title": "Construction Worker Housing Assistance Scheme",
+        "subtitle": "housing",
+        "text": "This scheme is for workers working in construction work. The main objective of the scheme is to provide assistance to these workers for the availability of houses."
+    },
+	{
+        "id": "house2",
+        "title": "Housing for EWS and JJ Basti in Delhi (DUSIB)",
+        "subtitle": "housing",
+        "text": "Aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability."
+    },
+	{
+        "id": "house3",
+        "title": "Pradhan Mantri Awas Yojana (PMAY)",
+        "subtitle": "housing",
+        "text": "Aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "insur1",
+        "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "subtitle": "insurance",
+        "text": "To provide a universal social security net for the needy and disadvantaged sections of society, offers affordable life insurance in the case of death of the insured person due to any cause."
+    },
+	{
+        "id": "insur2",
+        "title": "Pradhan Mantri Suraksha Bima Yojana",
+        "subtitle": "insurance",
+        "text": "The risk coverage under the scheme is Rs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. The premium of Rs. 12 per annum is to be deducted from the account holder’s bank account through ‘auto-debit’ facility in one installment."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "loan1",
+        "title": "Shilpi Samriddhi Yojana (SSY)",
+        "subtitle": "loan",
+        "text": "To provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation."
+    },
+	{
+        "id": "loan2",
+        "title": "Skill Loan Scheme",
+        "subtitle": "loan",
+        "text": "To provide institutional credit to individuals for skills related to National Business Standards and Qualification Packs."
+    },
+	{
+        "id": "loan3",
+        "title": "Transport Loan Scheme",
+        "subtitle": "loan",
+        "text": "Grants loans for the purchase of autorickshaw, tourist taxi, delivery vans, tempos, trucks and lorries, tankers, tippers, trailers, passenger bus (with route permit), tractor- trailors (nonagricultural and public carriers only) up to a maximum number of 20 vehicles (including existing ones) per unit."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "misc1",
+        "title": "Delhi Family Benefit Scheme (DFBS)",
+        "subtitle": "miscellaneous",
+        "text": "To strengthen the social security of the benefited families, for the Below Poverty Line(BPL) families. This scheme provides one time assistance to the families whose alone bread earner expires."
+    },
+	{
+        "id": "misc2",
+        "title": "Financial Assistance to Persons with Special Needs English",
+        "subtitle": "miscellaneous",
+        "text": "Covers Persons with Disabilities (PwDs) with not less than 40% disability and having a disability certificate to this effect issued by a competent medical authority to promote economic developmental activities for the benefit of persons with disabilities."
+    },
+	{
+        "id": "misc3",
+        "title": "Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (RGSEAG)- SABLA",
+        "subtitle": "miscellaneous",
+        "text": "To ensure adolescent girls self-development and empowerment, improve the nutrition and health status of adolescent girls of 11 to 18 years, promote awareness about health, hygiene, nutrition, adolescent reproductive and sexual health (ARSH) and family and child-care."
+    },
+	{
+        "id": "misc4",
+        "title": "Sukanya Samriddhi",
+        "subtitle": "miscellaneous",
+        "text": "To raise funds for the education and marriage of the girls."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "pension1",
+        "title": "Atal Pension Yojana (APY)",
+        "subtitle": "pension",
+        "text": "To give monthly pension of Rs.1000, Rs.2000, Rs.3000, Rs.4000 or Rs.5000 to people of age above 60."
     },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+	{
+        "id": "pension2",
+        "title": "Indira Gandhi National Old Age Pension Scheme",
+        "subtitle": "pension",
+        "text": "Aims to provide social protection to the eligible beneficiaries. Under this scheme, senior citizens of India will receive monthly pension."
+    },
+	{
+        "id": "pension3",
+        "title": "Pradhan Mantri Shram Yogi Maan-dhan",
+        "subtitle": "pension",
+        "text": "Pension scheme for unorganized workers for their old age protection and social security who are mostly engaged as rickshaw pullers, street vendors, mid-day meal workers, head loaders, brick kiln workers, cobblers, rag pickers, domestic workers, washermen, home-based workers, own-account workers, agricultural workers, construction workers, beedi workers, handloom workers, leather workers, audio-visual workers or in similar other occupations."
     }
 
 ]
