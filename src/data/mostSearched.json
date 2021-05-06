@@ -1,57 +1,195 @@
-[
+[	
+	{
+		"title": "Integrated Child Development Services",
+		"subtitle": "education",
+		"short_text": "Children under 6 years of age and to their mothers",
+		"data": {
+		  "ABOUT": "It is a government programme in India which provides food, pre-school education, primary health-care, immunization, health check-up and referral services to children under 6 years of age and to their mothers.",
+		  "AIM": "To reduce the incidence of mortality, morbidity, malnutrition and school dropout",
+		  "ELIGIBILITY": "Pregnant Women, all children up-to the age of six years, Lactating Women or Mothers.",
+		  "BENEFITS OF SCHEME": "Immunization, Supplementary nutrition, Health check-up, Referral services, Pre-school education (Non-Formal), Nutrition and Health information"
+		}
+	},
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+		"title": "Navodaya Vidyalaya Scheme",
+		"subtitle": "education",
+		"short_text": "Provide good quality modern education",
+		"data": {
+		  "ABOUT": "Navodaya Vidyalaya Samiti is a Autonomous body under Ministry of Education(Govt. of India). NVS was founded by Government of india in 1985. Total 661 JNVs have been sanctioned in 638 districts of India. Additional JNVs have been sanctioned in 23 districts. Each Navodaya Vidyalaya is a co-educational residential institution providing free boarding and lodging, free school uniforms, text books, stationery, and to and fro rail and bus fare to students. The medium of instruction will be mother-tongue/regional language upto VII or VIII Class. Thereafter the common medium would be Hindi/English in all Navodaya Vidyalayas.",
+		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
+		  "ELIGIBILITY": "Only candidates from the district where the Jawahar Navodaya Vidyalaya has been opened are eligible to apply for admission.",
+		  "BENEFITS OF SCHEME": "Scouts And Guide Activities, National Service Scheme(NSS), Adolescence Education Programme, National Cadet Corps in JNV."
+		}
+	},
+	{
+		"title": "Lal Bahadur Shastri Scholarship",
+		"subtitle": "education",
+		"short_text": "To provide financial support to meritorious students of economically weaker sections of society.",
+		"data": {
+		  "ABOUT": "Lal Bahadur Shastri Scholarship’s (LBSS) main objective is to provide financial support to meritorious students of economically weaker sections of society. It is introduced by education department of Delhi government.",
+		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
+		  "ELIGIBILITY": "The students must be an Indian citizen and should be studying in class 6 to 10. The students must be enrolled in a government or government-aided schools located anywhere in India. The students must have obtained at least 60% marks in their previous year final exam. The family income of the applicants must not exceed Rs 3.5 lakhs per annum.",
+		  "BENEFITS OF SCHEME": " Every year, Lal Bahadur Shastri Trust Delhi selects 110 students for the Lal Bahadur Shastri Scholarship Delhi. This scholarship aims to support poor and meritorious students financially. Every year, the selected students are given a scholarship amount worth Rs 3000 to 4000 per year. The list of selected students will be published on the official website. On selection, the students will be paid the scholarship amount directly to their bank account or through bank cheque."
+		}
+	},
+	{
+		"title": "National Means-Cum-Merit Scholarship Scheme(NMMSS)",
+		"subtitle": "education",
+		"short_text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships.",
+		"data": {
+		  "ABOUT": "...",
+		  "AIM": "...",
+		  "ELIGIBILITY": "...",
+		  "BENEFITS OF SCHEME": "..."
+		}
+	},
+	{
+		"title": "National Scheme Incentives to Girls for Secondary Education (NSIGSE)",
+		"subtitle": "education",
+		"short_text": "To provide a further incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school.",
+		"data": {
+		  "ABOUT": "The Finance Minister in his budget announcement 2006-07 (Para-38-Credit of funds under Kasturba Gandhi Balika Vidyalayas) has inter-alia stated as under:- 'The initial results of the Kasturba Gandhi Balika Vidyalaya Scheme launched in 2004 are encouraging. 1,000 new residential schools for girls from SC, ST, OBC and Minority communities will be opened in 2006-07. I have provided Rs.128 crore, and I have agreed to provide an additional sum of Rs.172 crore during the year. I propose to provide a further Incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school. A sum of Rs.3,000 will be deposited in her name, and she would be entitled to withdraw it on reaching 18 years of age.'",
+		  "AIM": "To promote the girl child's enrolment of 14-18 years age group at secondary stage, who passes class VIII and subsequently drops out for various socio-economic reasons.",
+		  "ELIGIBILITY": "To be eligible for the benefit under the scheme the girl should be unmarried and should be below 16 years of age (as on 31st March) on joining class IX. In addition, the scheme is made applicable to the girls, who pass class VIII examination from Kasturba Gandhi Balika Vidhyalayas irrespective of whether they belong to Scheduled Castes or Tribes. The beneficiary will have to continue her study at least for two years in the secondary school after her enrollment in Class IX in order to avail the benefit under the scheme. The Principal/ Head of the school will furnish a certificate to this effect. To be eligible to draw the matured amount a pre-condition would be for the beneficiary to pass class X Board examination successfully.",
+		  "BENEFITS OF SCHEME": "..."
+		}
+	},
+	{
+		"title": "Samagra Shiksha",
+		"subtitle": "education",
+		"short_text": "To ensure inclusive and equitable quality education at all levels of school education.",
+		"data": {
+		  "ABOUT": "Samagra Shiksha is an integrated scheme for school education extending from pre-school to class XII to ensure inclusive and equitable quality education at all levels of school education. It subsumes the three Schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA) and Teacher Education (TE). The scheme treats school education holistically as a continuum from Pre-school to Class 12. The main emphasis of the Scheme is on improving the quality of school education by focussing on the two T’s – Teacher and Technology.'",
+		  "AIM": "To ensure inclusive and equitable quality education at all levels of school education.",
+		  "ELIGIBILITY": "● Resource Person's for CWSN: Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years. ● SpecialEducator Secondary (9-12): Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.",
+		  "BENEFITS OF SCHEME": "This scheme is mainly focused on reducing the social and gender gaps between the sexes. To support and promote the children’s right to free and compulsory education according to the RTE Act, 2009. The Samagra Shiksha Abhiyan Scheme aims at increasing the quality of education provided by the State education boards."
+		}
+	},
+	{
+        "id": "edu7",
+        "title": "Central Sector Scheme Of Scholarship (CSSS)",
+        "subtitle": "education",
+        "text": "To provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies."
+    },
+	{
+        "id": "emp1",
+        "title": "National Career Service",
+        "subtitle": "employment",
+        "text": "To primarily connect the opportunities with the aspirations of youth. The scheme facilitates registration of job seekers, job providers, skill providers, career counsellors, etc. and provides job matching services in a highly transparent and user friendly manner."
+    },
+	{
+        "id": "emp2",
+        "title": "Sampoorna Grameen Rozgar Yojana",
+        "subtitle": "employment",
+        "text": "To attain the aim of providing gainful employment for the rural poor of the country. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "health1",
+        "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojna",
+        "subtitle": "health",
+        "text": "To provide financial aid to the artisan community to access the best of healthcare facilities in the country."
+    },
+	{
+        "id": "health2",
+        "title": "Rashtriya Swasthya Bima Yojana",
+        "subtitle": "health",
+        "text": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme."
+    },
+	{
+        "id": "health3",
+        "title": "Suvidha",
+        "subtitle": "health",
+        "text": "Under this campaign, sanitary napkins are being made available at a minimum cost of Re 1 in more than 6300 Pradhanmantti Jan Aushadhi Centers across the country."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "house1",
+        "title": "Construction Worker Housing Assistance Scheme",
+        "subtitle": "housing",
+        "text": "This scheme is for workers working in construction work. The main objective of the scheme is to provide assistance to these workers for the availability of houses."
+    },
+	{
+        "id": "house2",
+        "title": "Housing for EWS and JJ Basti in Delhi (DUSIB)",
+        "subtitle": "housing",
+        "text": "Aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability."
+    },
+	{
+        "id": "house3",
+        "title": "Pradhan Mantri Awas Yojana (PMAY)",
+        "subtitle": "housing",
+        "text": "Aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "insur1",
+        "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "subtitle": "insurance",
+        "text": "To provide a universal social security net for the needy and disadvantaged sections of society, offers affordable life insurance in the case of death of the insured person due to any cause."
+    },
+	{
+        "id": "insur2",
+        "title": "Pradhan Mantri Suraksha Bima Yojana",
+        "subtitle": "insurance",
+        "text": "The risk coverage under the scheme is Rs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. The premium of Rs. 12 per annum is to be deducted from the account holder’s bank account through ‘auto-debit’ facility in one installment."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "loan1",
+        "title": "Shilpi Samriddhi Yojana (SSY)",
+        "subtitle": "loan",
+        "text": "To provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation."
+    },
+	{
+        "id": "loan2",
+        "title": "Skill Loan Scheme",
+        "subtitle": "loan",
+        "text": "To provide institutional credit to individuals for skills related to National Business Standards and Qualification Packs."
+    },
+	{
+        "id": "loan3",
+        "title": "Transport Loan Scheme",
+        "subtitle": "loan",
+        "text": "Grants loans for the purchase of autorickshaw, tourist taxi, delivery vans, tempos, trucks and lorries, tankers, tippers, trailers, passenger bus (with route permit), tractor- trailors (nonagricultural and public carriers only) up to a maximum number of 20 vehicles (including existing ones) per unit."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "misc1",
+        "title": "Delhi Family Benefit Scheme (DFBS)",
+        "subtitle": "miscellaneous",
+        "text": "To strengthen the social security of the benefited families, for the Below Poverty Line(BPL) families. This scheme provides one time assistance to the families whose alone bread earner expires."
+    },
+	{
+        "id": "misc2",
+        "title": "Financial Assistance to Persons with Special Needs English",
+        "subtitle": "miscellaneous",
+        "text": "Covers Persons with Disabilities (PwDs) with not less than 40% disability and having a disability certificate to this effect issued by a competent medical authority to promote economic developmental activities for the benefit of persons with disabilities."
+    },
+	{
+        "id": "misc3",
+        "title": "Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (RGSEAG)- SABLA",
+        "subtitle": "miscellaneous",
+        "text": "To ensure adolescent girls self-development and empowerment, improve the nutrition and health status of adolescent girls of 11 to 18 years, promote awareness about health, hygiene, nutrition, adolescent reproductive and sexual health (ARSH) and family and child-care."
+    },
+	{
+        "id": "misc4",
+        "title": "Sukanya Samriddhi",
+        "subtitle": "miscellaneous",
+        "text": "To raise funds for the education and marriage of the girls."
     },
     {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+        "id": "pension1",
+        "title": "Atal Pension Yojana (APY)",
+        "subtitle": "pension",
+        "text": "To give monthly pension of Rs.1000, Rs.2000, Rs.3000, Rs.4000 or Rs.5000 to people of age above 60."
     },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+	{
+        "id": "pension2",
+        "title": "Indira Gandhi National Old Age Pension Scheme",
+        "subtitle": "pension",
+        "text": "Aims to provide social protection to the eligible beneficiaries. Under this scheme, senior citizens of India will receive monthly pension."
     },
-    {
-        "id": "fsdfa",
-        "title": "Rajiv Gandhi something",
-        "subtitle": "subtitle",
-        "text": "lorem ipsum"
+	{
+        "id": "pension3",
+        "title": "Pradhan Mantri Shram Yogi Maan-dhan",
+        "subtitle": "pension",
+        "text": "Pension scheme for unorganized workers for their old age protection and social security who are mostly engaged as rickshaw pullers, street vendors, mid-day meal workers, head loaders, brick kiln workers, cobblers, rag pickers, domestic workers, washermen, home-based workers, own-account workers, agricultural workers, construction workers, beedi workers, handloom workers, leather workers, audio-visual workers or in similar other occupations."
     }
 
 ]
