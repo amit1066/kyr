@@ -29,7 +29,11 @@ const useStyles = makeStyles((theme) => ({
     },
     Policy: {
       backgroundColor: "#CFD5FA",
-      overflow: "visible"
+      overflow: "visible",
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
     },
     ReadMoreButton: {
       backgroundColor: "white",
@@ -74,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
             {props.short_text}
           </Typography>
         </CardContent>
-        <CardActions style={{ justifyContent: "center" }}>
+        <CardActions style={{ justifyContent: "center", bottom:"0" }}>
           <Button size="small" variant="outlined" className={classes.ReadMoreButton} onClick={props.handleClickOpen}> READ MORE </Button>
         </CardActions>
         <Dialog fullScreen open={props.open} onClose={props.handleClose} TransitionComponent={Transition}>
