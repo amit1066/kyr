@@ -139,9 +139,9 @@ function SingleLineGridList() {
                                 //<ReadButton><test/>
                                     //</ReadButton>
                                     <div>
-                                    <Button variant="outlined" color="primary" onClick={handleClickOpen(i)}>
-                                      Open full-screen dialog
-                                    </Button>
+                                    <ReadButton variant="outlined" color="primary" onClick={handleClickOpen(i)}>
+                                      Learn More
+                                    </ReadButton>
                                     <Dialog fullScreen open={open === i} onClose={handleClose} TransitionComponent={Transition}>
                                       <AppBar className={classes.appBar}>
                                         <Toolbar>
@@ -152,7 +152,7 @@ function SingleLineGridList() {
                                             Sound
                                           </Typography>
                                           <Button autoFocus color="inherit" onClick={handleClose}>
-                                            save
+                                            EXPLORE ANOTHER POLICY
                                           </Button>
                                         </Toolbar>
                                       </AppBar>
