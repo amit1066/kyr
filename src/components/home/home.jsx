@@ -102,9 +102,12 @@ function SingleLineGridList() {
     
   const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  const handleClickOpen = (i) => (
+    () => {
+        setOpen(i); // 'i' represents the tab number to open up when clicked
+    }
+  )
+  ;
 
   const handleClose = () => {
     setOpen(false);
@@ -136,10 +139,10 @@ function SingleLineGridList() {
                                 //<ReadButton><test/>
                                     //</ReadButton>
                                     <div>
-                                    <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+                                    <Button variant="outlined" color="primary" onClick={handleClickOpen(i)}>
                                       Open full-screen dialog
                                     </Button>
-                                    <Dialog fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
+                                    <Dialog fullScreen open={open === i} onClose={handleClose} TransitionComponent={Transition}>
                                       <AppBar className={classes.appBar}>
                                         <Toolbar>
                                           <IconButton edge="start" color="inherit" onClick={handleClose} aria-label="close">
