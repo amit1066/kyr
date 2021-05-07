@@ -30,6 +30,7 @@ import ListItem from '@material-ui/core/ListItem';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
+import MostSearchedDialog from "./mostSearchedDialog";
 
 const useStyles2 = makeStyles((theme) => ({
     root: {
@@ -59,7 +60,7 @@ const useStyles2 = makeStyles((theme) => ({
     },
     tilebar: {
         backgroundColor: "#100a33",
-
+        marginBottom: "2px"
 
     },
     ReadButton: {
@@ -102,7 +103,7 @@ function SingleLineGridList() {
     
   const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = (i) => (
+  const handleClickOpen = (i) => ( // this function returns a function that opens up a particular full screen dialog
     () => {
         setOpen(i); // 'i' represents the tab number to open up when clicked
     }
@@ -135,45 +136,12 @@ function SingleLineGridList() {
                         <GridListTileBar
                             className={classes.tilebar}
                             actionIcon={
-                               
-                                //<ReadButton><test/>
-                                    //</ReadButton>
-                                    <div>
-                                    <ReadButton variant="outlined" color="primary" onClick={handleClickOpen(i)}>
-                                      Learn More
-                                    </ReadButton>
-                                    <Dialog fullScreen open={open === i} onClose={handleClose} TransitionComponent={Transition}>
-                                      <AppBar className={classes.appBar}>
-                                        <Toolbar>
-                                          <IconButton edge="start" color="inherit" onClick={handleClose} aria-label="close">
-                                            <CloseIcon />
-                                          </IconButton>
-                                          <Typography variant="h6" className={classes.title}>
-                                            Sound
-                                          </Typography>
-                                          <Button autoFocus color="inherit" onClick={handleClose}>
-                                            EXPLORE ANOTHER POLICY
-                                          </Button>
-                                        </Toolbar>
-                                      </AppBar>
-                                      <List>
-                                        <ListItem button>
-                                          <ListItemText primary="Phone ringtone" secondary="Titania" />
-                                        </ListItem>
-                                        <Divider />
-                                        <ListItem button>
-                                          <ListItemText primary="Default notification ringtone" secondary="Tethys" />
-                                        </ListItem>
-                                      </List>
-                                    </Dialog>
-                                  </div>    
+                                <MostSearchedDialog data={data.data} hc={handleClickOpen(i)} open={open===i} handleClose={handleClose} />
                                     
                                                             
                             }
                             
                         />
-                        hello 
-                        <test/>
 
                     </GridListTile>
                 ))}
