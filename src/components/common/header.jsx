@@ -2,10 +2,22 @@ import React from "react";
 import { AppBar, Toolbar, Typography, Box } from "@material-ui/core";
 import { fade, makeStyles } from "@material-ui/core/styles";
 
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import { Autocomplete } from "@material-ui/lab";
+import TextField from '@material-ui/core/TextField';
+
+
+import cyrb53 from "./hash";
+import HealthArray from '../../data/health_data.json';
+import MiscArray from '../../data/misc_data.json';
+import EducArray from '../../data/education_data.json';
+import EmploymentArray from '../../data/employment_data.json';
+
+
 const useStyles = makeStyles((theme) => ({
   typographyStyles: {
     flex: 1,
@@ -67,6 +79,9 @@ const useStyles = makeStyles((theme) => ({
 
 const Header = () => {
   const classes = useStyles();
+  let allPolicies = HealthArray.concat(MiscArray, EducArray, EmploymentArray);
+
+
   return (
     <div className={classes.root} >
 
@@ -93,14 +108,38 @@ const Header = () => {
                 <div className={classes.searchIcon}>
                   <SearchIcon />
                 </div>
-                <InputBase
-                  placeholder="Search…"
-                  classes={{
-                    root: classes.inputRoot,
-                    input: classes.inputInput,
-                  }}
-                  inputProps={{ 'aria-label': 'search' }}
-                />
+                <Router>
+
+                  <Autocomplete
+                    className = {classes.inputInput}
+                    freeSolo
+                    getOptionLabel = {(policy) => policy.title}
+                    options={allPolicies}
+                    id="auto-select"
+                    autoSelect
+                    renderOption={
+                      (policy) => 
+                        <span
+                          style={{ cursor: "pointer" }}
+                          onClick={() => {
+                            window.location.href = cyrb53(policy.title, 42);
+                            console.log(policy.title);
+                          }}
+                        >
+                          {policy.title}
+                        </span>
+                      
+
+                    }
+                    renderInput={(params) => (
+                      <TextField
+                        {...params}
+                        label="Search"
+                        margin="normal"
+                      />
+                    )}
+                  />
+                </Router>
               </div>
 
             </Box>
