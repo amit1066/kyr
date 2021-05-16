@@ -45,7 +45,9 @@ export default function PolicyPage(props) {
                     <Typography variant="h7" className={classes.title}>
                         {props.short_text}
                     </Typography>
-                    
+                    <Button autoFocus color="inherit" onClick={props.handleClose}>
+                explore another policy
+            </Button>
                 </Toolbar>
             </AppBar>
             <List>

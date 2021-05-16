@@ -124,7 +124,7 @@ function SingleLineGridList() {
                                 <Typography className={classes.cardtitle} color="textSecondary" gutterBottom>
                                     #{i++}
                                 </Typography>
-                                <Typography variant="h6" component="h6">
+                                <Typography >
                                     {data.title}
                                 </Typography>
                                 <Typography color="textSecondary">

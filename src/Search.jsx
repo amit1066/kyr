@@ -1,4 +1,5 @@
-import React from 'react';
+//import React from 'react';
+import React, { useEffect, useState } from "react";
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -14,6 +15,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import JSONDATA from './data/mostSearched.json';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -103,6 +105,12 @@ export default function PrimarySearchAppBar() {
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
+  const[searchTerm, setSearchTerm]= useState("");
+  const checkInput = () =>{
+    var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+  };
 
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
@@ -167,12 +175,35 @@ export default function PrimarySearchAppBar() {
             </div>
             <InputBase
               placeholder="Search…"
+              id= "search"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
+              onChange= {(event) => {setSearchTerm(event.target.value);}}
+              
             />
+            {JSONDATA.filter((val)=>{
+              if(searchTerm === "")
+              return val
+              else if (val.title.toLowerCase().includes(searchTerm.toLowerCase())){
+                return val
+              }
+            }).map((val, key) =>{
+              return(
+                <div className= "user" key= {key}>
+                  <p>{val.title}</p>
+                </div>
+
+              );
+
+
+            })}
+            
+            
+            )
+            
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

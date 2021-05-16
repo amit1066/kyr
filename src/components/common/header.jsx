@@ -47,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1, 1, 1, 0),
     paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
     transition: theme.transitions.create('width'),
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
+    width: '85%',
+    [theme.breakpoints.up('xl')]: {
       width: '12ch',
       '&:focus': {
         width: '20ch',
@@ -90,10 +90,10 @@ const Header = () => {
           <Box flexWrap="wrap" display="flex" flexGrow={1}>
             <Box>
               <Typography variant="h3" m="2rem" className={classes.typographyStyles}>
-                KNOW YOUR RIGHTS
+                KNOW YOUR RIGHTS 
               </Typography>
             </Box>
-            <Box flexGrow={1} />
+            <Box flexGrow={6}/>
             <Box alignSelf="center">
               <a href="https://www.facebook.com">
                 <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
@@ -103,14 +103,15 @@ const Header = () => {
               </a>
             </Box>
 
-            <Box flexShrink={1} alignSelf="center">
+            <Box flexGrow={3} alignSelf="center" >
+              
               <div className={classes.search}>
                 <div className={classes.searchIcon}>
                   <SearchIcon />
                 </div>
                 <Router>
 
-                  <Autocomplete
+                  <Autocomplete 
                     className = {classes.inputInput}
                     freeSolo
                     getOptionLabel = {(policy) => policy.title}
