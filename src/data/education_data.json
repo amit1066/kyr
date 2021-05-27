@@ -2,23 +2,24 @@
 	{
 		"title": "Integrated Child Development Services",
 		"subtitle": "education",
-		"short_text": "Children under 6 years of age and to their mothers",
+		"short_text": "Provides food, pre-school education, primary health-care, immunization, health check-up and referral services to children under 6 years of age and to their mothers.",
 		"data": {
 		  "ABOUT": "It is a government programme in India which provides food, pre-school education, primary health-care, immunization, health check-up and referral services to children under 6 years of age and to their mothers.",
-		  "AIM": "To reduce the incidence of mortality, morbidity, malnutrition and school dropout",
-		  "ELIGIBILITY": "Pregnant Women, all children up-to the age of six years, Lactating Women or Mothers.",
+		  "AIM": "1. To reduce the incidence of mortality, morbidity, malnutrition and school dropout\n2. To achieve effective co-ordination of policy and implementation amongst the various departments to promote child development\n3. To enhance the capability of the mother to look after the normal health and nutritional needs of the child through proper nutrition and health education",
+		  "ELIGIBILITY": "Pregnant Women, all children up-to the age of six years, Lactating Women or Mothers",
+		  "NOTE": "No documents are required except those which establish the relation between the mother and her child.",
 		  "BENEFITS OF SCHEME": "Immunization, Supplementary nutrition, Health check-up, Referral services, Pre-school education (Non-Formal), Nutrition and Health information"
 		}
 	},
     {
 		"title": "Navodaya Vidyalaya Scheme",
 		"subtitle": "education",
-		"short_text": "Provide good quality modern education",
+		"short_text": "Provides good quality modern education",
 		"data": {
 		  "ABOUT": "Navodaya Vidyalaya Samiti is a Autonomous body under Ministry of Education(Govt. of India). NVS was founded by Government of india in 1985. Total 661 JNVs have been sanctioned in 638 districts of India. Additional JNVs have been sanctioned in 23 districts. Each Navodaya Vidyalaya is a co-educational residential institution providing free boarding and lodging, free school uniforms, text books, stationery, and to and fro rail and bus fare to students. The medium of instruction will be mother-tongue/regional language upto VII or VIII Class. Thereafter the common medium would be Hindi/English in all Navodaya Vidyalayas.",
 		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
-		  "ELIGIBILITY": "Only candidates from the district where the Jawahar Navodaya Vidyalaya has been opened are eligible to apply for admission.",
-		  "BENEFITS OF SCHEME": "Scouts And Guide Activities, National Service Scheme(NSS), Adolescence Education Programme, National Cadet Corps in JNV."
+		  "ELIGIBILITY": "1. Only candidates from the district where the Jawahar Navodaya Vidyalaya has been opened are eligible to apply for admission.\n2. Candidates appearing for the selection test must be studying in Class-V for the entire academic session in a Government/Government-Aided, other recognized school or ‘B’ Certificate Competency Course of National Institute of Open Schooling, in the same district where he/she seeks admission.\n3. A candidate seeking admission must be within the age group of 9 to 13 years. This is applicable to candidates of all categories, including those who belong to the Scheduled Castes(SCs) and Scheduled Tribes (STs).\n4. A candidate claiming admission from rural quota must have studied and passed Classes- III, IV and V from a Govt./Govt. Aided/ recognised school spending one full academic session each year in a school located in a rural area.\n5. A candidate who has studied in a school located in an urban area even for a single day of a session in any of the Classes-III, IV or V, will be considered as an Urban area candidate. Urban areas are those, which are so notified in the 2011 Census or through a subsequent Government Notification. All other areas will be considered as rural.\n6. A candidate who has not been promoted and admitted to Class-V before 30th September, is not eligible to apply.\n7. No candidate is eligible to appear in the JNV Selection Test for a second time, under any circumstances.",
+		  "BENEFITS OF SCHEME": "National Games And Sports Meet, Museum Corner, Multi Gyms, National Foundation For Communal Harmony (NFCH), Swachhata Campaign, Pestalozzi(a charity in England offering Diploma with Scholarship), National Talent Search Examination (NTSE), Regional Science Congress, Scouts And Guide Activities, National Service Scheme(NSS), Adolescence Education Programme, National Cadet Corps in JNV."
 		}
 	},
 	{
@@ -27,7 +28,7 @@
 		"short_text": "To provide financial support to meritorious students of economically weaker sections of society.",
 		"data": {
 		  "ABOUT": "Lal Bahadur Shastri Scholarship’s (LBSS) main objective is to provide financial support to meritorious students of economically weaker sections of society. It is introduced by education department of Delhi government.",
-		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
+		  "AIM": "To provide financial support to meritorious students of economically weaker sections of society.",
 		  "ELIGIBILITY": "The students must be an Indian citizen and should be studying in class 6 to 10. The students must be enrolled in a government or government-aided schools located anywhere in India. The students must have obtained at least 60% marks in their previous year final exam. The family income of the applicants must not exceed Rs 3.5 lakhs per annum.",
 		  "BENEFITS OF SCHEME": " Every year, Lal Bahadur Shastri Trust Delhi selects 110 students for the Lal Bahadur Shastri Scholarship Delhi. This scholarship aims to support poor and meritorious students financially. Every year, the selected students are given a scholarship amount worth Rs 3000 to 4000 per year. The list of selected students will be published on the official website. On selection, the students will be paid the scholarship amount directly to their bank account or through bank cheque."
 		}
@@ -35,13 +36,7 @@
 	{
 		"title": "National Means-Cum-Merit Scholarship Scheme(NMMSS)",
 		"subtitle": "education",
-		"short_text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships.",
-		"data": {
-		  "ABOUT": "...",
-		  "AIM": "...",
-		  "ELIGIBILITY": "...",
-		  "BENEFITS OF SCHEME": "..."
-		}
+		"short_text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships."
 	},
 	{
 		"title": "National Scheme Incentives to Girls for Secondary Education (NSIGSE)",
@@ -50,8 +45,7 @@
 		"data": {
 		  "ABOUT": "The Finance Minister in his budget announcement 2006-07 (Para-38-Credit of funds under Kasturba Gandhi Balika Vidyalayas) has inter-alia stated as under:- 'The initial results of the Kasturba Gandhi Balika Vidyalaya Scheme launched in 2004 are encouraging. 1,000 new residential schools for girls from SC, ST, OBC and Minority communities will be opened in 2006-07. I have provided Rs.128 crore, and I have agreed to provide an additional sum of Rs.172 crore during the year. I propose to provide a further Incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school. A sum of Rs.3,000 will be deposited in her name, and she would be entitled to withdraw it on reaching 18 years of age.'",
 		  "AIM": "To promote the girl child's enrolment of 14-18 years age group at secondary stage, who passes class VIII and subsequently drops out for various socio-economic reasons.",
-		  "ELIGIBILITY": "To be eligible for the benefit under the scheme the girl should be unmarried and should be below 16 years of age (as on 31st March) on joining class IX. In addition, the scheme is made applicable to the girls, who pass class VIII examination from Kasturba Gandhi Balika Vidhyalayas irrespective of whether they belong to Scheduled Castes or Tribes. The beneficiary will have to continue her study at least for two years in the secondary school after her enrollment in Class IX in order to avail the benefit under the scheme. The Principal/ Head of the school will furnish a certificate to this effect. To be eligible to draw the matured amount a pre-condition would be for the beneficiary to pass class X Board examination successfully.",
-		  "BENEFITS OF SCHEME": "..."
+		  "ELIGIBILITY": "1. To be eligible for the benefit under the scheme the girl should be unmarried and should be below 16 years of age (as on 31st March) on joining class IX.\n2. In addition, the scheme is made applicable to the girls, who pass class VIII examination from Kasturba Gandhi Balika Vidhyalayas irrespective of whether they belong to Scheduled Castes or Tribes.\n3. The beneficiary will have to continue her study at least for two years in the secondary school after her enrollment in Class IX in order to avail the benefit under the scheme. The Principal/ Head of the school will furnish a certificate to this effect. To be eligible to draw the matured amount a pre-condition would be for the beneficiary to pass class X Board examination successfully.\n4. There would be no restriction based on income criteria for grant of incentive to girls, because SC/ST girls and girls passing out from KGBVs and studying in Government, Government-aided and local body schools would generally be from disadvantaged section of the society."
 		}
 	},
 	{
@@ -61,8 +55,18 @@
 		"data": {
 		  "ABOUT": "Samagra Shiksha is an integrated scheme for school education extending from pre-school to class XII to ensure inclusive and equitable quality education at all levels of school education. It subsumes the three Schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA) and Teacher Education (TE). The scheme treats school education holistically as a continuum from Pre-school to Class 12. The main emphasis of the Scheme is on improving the quality of school education by focussing on the two T’s – Teacher and Technology.'",
 		  "AIM": "To ensure inclusive and equitable quality education at all levels of school education.",
-		  "ELIGIBILITY": "● Resource Person's for CWSN: Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years. ● SpecialEducator Secondary (9-12): Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.",
-		  "BENEFITS OF SCHEME": "This scheme is mainly focused on reducing the social and gender gaps between the sexes. To support and promote the children’s right to free and compulsory education according to the RTE Act, 2009. The Samagra Shiksha Abhiyan Scheme aims at increasing the quality of education provided by the State education boards."
+		  "ELIGIBILITY": "1. Resource Person's for CWSN: Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.\n2. SpecialEducator Secondary (9-12): Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.",
+		  "BENEFITS OF SCHEME": "1. This scheme is mainly focused on reducing the social and gender gaps between the sexes.\n2. To support and promote the children’s right to free and compulsory education according to the RTE Act, 2009.\n3. The Samagra Shiksha Abhiyan Scheme aims at increasing the quality of education provided by the State education boards.\n4. The scheme would aim in strengthening and upgrading the state boards as nodal agencies for enhanced teachers training.\n5. The scheme also was launched with an aim of promoting the vocationalising of education.\n6. The Samagra Shiksha Abhiyan Scheme is aimed at ensuring the minimum standard in school education.\n7. Last but not the least, this scheme is designed to ensure the equity and inclusion of all levels of school education."
+		}
+	},
+	{
+		"title": "Central Sector Scheme Of Scholarship(CSSS)",
+		"subtitle": "education",
+		"short_text": "For college and university students",
+		"data": {
+		  "ABOUT": "The objective of the scheme is to provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies.'",
+		  "AIM": "The objective of the scheme is to provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies.",
+		  "BENEFITS OF SCHEME": "1. The rate of scholarship is Rs. 10000/- per annum at Graduation level for first three years of College and University courses and Rs. 20000/- per annum at Post-Graduation level.\n2. Students pursuing professional courses are paid Rs. 20,000/- per annum in the 4th and 5th year."
 		}
 	}
 ]
