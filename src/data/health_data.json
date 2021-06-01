@@ -1,59 +1,35 @@
-[
-  {
-    "title": "Modi Modi Modi Modi",
-    "subtitle": "+1 hp regen",
-    "short_text": "costs 300",
-    "data": {
-      "ABOUT": "dont buy me",
-      "AIM": " Mr rabbit.",
-      "ELIGIBILITY": "dancing doge",
-      "BENEFITS OF SCHEME": "  table."
-  
-  
-    }
-  },
-  {
-    "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojana",
-    "subtitle": "subtitle",
-    "short_text": "short text",
-    "data": {
-      "ABOUT": " The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
-      "AIM": " Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the      artisan community to access the best of healthcare facilities in the country.",
-      "ELIGIBILITY": "  All Craft persons( Handicraft artisans whether male or female, between the age      group of one day to 80 years are eligible to avail the scheme.",
-      "BENEFITS OF SCHEME": "  table."
-    }
-  },
-  {
-    "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojana",
-    "subtitle": "subtitle",
-    "short_text": "short text",
-    "data": {
-      "ABOUT": " The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
-      "AIM": " Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the      artisan community to access the best of healthcare facilities in the country.",
-      "ELIGIBILITY": "  All Craft persons( Handicraft artisans whether male or female, between the age      group of one day to 80 years are eligible to avail the scheme.",
-      "BENEFITS OF SCHEME": "  table."
-    }
-  },
-  {
-    "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojana",
-    "subtitle": "subtitle",
-    "short_text": "short text",
-    "data": {
-      "ABOUT": " The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
-      "AIM": " Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the      artisan community to access the best of healthcare facilities in the country.",
-      "ELIGIBILITY": "  All Craft persons( Handicraft artisans whether male or female, between the age      group of one day to 80 years are eligible to avail the scheme.",
-      "BENEFITS OF SCHEME": "  table."
-    }
-  },
-  {
-    "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojana",
-    "subtitle": "subtitle",
-    "short_text": "short text",
-    "data": {
-      "ABOUT": " The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
-      "AIM": " Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the      artisan community to access the best of healthcare facilities in the country.",
-      "ELIGIBILITY": "  All Craft persons( Handicraft artisans whether male or female, between the age      group of one day to 80 years are eligible to avail the scheme.",
-      "BENEFITS OF SCHEME": "  table."
-    }
-  }
+[	
+	{
+		"title": "Rajiv Gandhi Shilpi Swasthya Bima Yojna",
+		"subtitle": "health",
+		"short_text": "To provide financial aid to the artisan community to access the best of healthcare facilities in the country.",
+		"data": {
+		  "ABOUT": "The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
+		  "AIM": "Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the artisan community to access the best of healthcare facilities in the country.",
+		  "ELIGIBILITY": "All Craft persons( Handicraft artisans) whether male or female, between the age group of one day to 80 years are eligible to avail the scheme.",
+		  "BENEFITS OF SCHEME": "Annual limit per family (1+4) Which includes self, spouse and three dependent family members:\n1. IPD: Amount- Rs. 30,000/-\n2. OPD: Amount- Rs.7,500/-"
+		}
+	},
+    	{
+		"title": "Rashtriya Swasthya Bima Yojana",
+		"subtitle": "health",
+		"short_text": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme.",
+		"data": {
+		  "ABOUT": "It is a government-run health insurance program for the Indian poor. The scheme aims to provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme. It is active in 25 states of India. It provides for IT-enabled and smart–card-based cashless health insurance cover.",
+		  "AIM": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme.",
+		  "ELIGIBILITY": "It is designed to target the Below Poverty Line (BPL) households, and also has expanded to cover other defined categories of unorganised workers, covering:\n1. Building and other construction workers registered with the Welfare Boards\n2. Licensed Railway Porters\n3. Street Vendors\n4. MNREGA workers who have worked for more than 15 days during the preceding financial year\n5. Domestic Workers\n6. Sanitation Workers\n7. Mine Workers\n8. Rickshaw pullers\n9. Rag pickers\n10. Auto/Taxi Driver",
+		  "BENEFITS OF SCHEME": "1. The beneficiaries under RSBY are entitled to hospitalization coverage up to Rs. 30,000/- per annum on family floater basis, which includes transportation allowance of 100/ hospitalization to maximum of Rs 1,000 .\n2. Cashless treatment through biometric smart cards with across- the- country portability\n3. The beneficiaries need to pay only Rs. 30/- as registration fee for a year while Central and State Government collectively pays the premium.\n4. Insurance cover to pre-existing diseases.\n5. No age restrictions for enrollment."
+		}
+	},
+	{
+		"title": "Suvidha",
+		"subtitle": "health",
+		"short_text": "To create a safe space that empowers the women to go and buy, especially when it comes to rural areas.",
+		"data": {
+		  "ABOUT": "In many parts of the country especially in rural areas girls and women do not have access to sanitary products or they do not opt for them as most of these items available in the market are bit costly.\nThe Suvidha Scheme under the Pradhan Mantri Bharatiya Janashadhi Pariyojana(PMBJY) ensured ‘Swachhta, Swasthya and Suvidha’ for the underprivileged Women of India. This step has been taken by the Union Department of Pharmaceuticals to ensure the achievement of  Prime Minister vision of Affordable and Quality Healthcare for All. On the eve of World Environment Day 4th June 2018, Government of India proudly announced the launch of “Jan Aushadhi Suvidha Oxo-Biodegradable Sanitary Napkin” for women of India.",
+		  "AIM": "1. To raise awareness about switching from unhygienic cloth piece to pads.\n2. To provide a unique product ensuring affordability, hygiene.\n3. An environmental-friendly product for ease of use & disposal for them.\n4. To provide an affordable product so that the importance of menstrual hygiene reaches every woman.\n5. To create a safe space that empowers the women to go and buy, especially when it comes to rural areas.",
+		  "NOTE": "1. These are made available through all Jan Aushadhi stores.\n2. The Jan Aushadhi Sugam mobile app also helps in locating stores along with information and details related to medicines available at these stores.\n3. A website where we can gather information about various generic medicines and necessities.",
+		  "BENEFITS OF SCHEME": "1. With proper guidance, education and use of sanitary pads, it will helps women to break the illusion of considering menstruation as a taboo.\n2. It will help them to prevent leakage and save their valuable clothes from blood stains and humiliation in public.\n3. It will help them to prevent various injuries and infections like vaginal infection as in case of using cloth pads or any other stuff.\n4. It is very convenient than cloth pads because sanitary pads comes in a variety of sizes and absorption level, also, they contain an fragrance which blocks the pungent bleeding  smell.\n5. The availability of these oxo-biodegradable pads at Re 1/piece is very eco-friendly since women can safely use it and when used it break drown into biodegrade in presence of oxygen, i.e., no harm to the environment.\n6. It helps in creating a safe space for women especially in the rural areas, where they can openly discuss about menstruation, sanitary pads, openly go and buy it and so on."
+		}
+	}
 ]
