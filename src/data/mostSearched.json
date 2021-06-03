@@ -1,201 +1,258 @@
 [	
 	{
-        "id": 1,
 		"title": "Integrated Child Development Services",
 		"subtitle": "education",
-		"short_text": "Children under 6 years of age and to their mothers",
+		"short_text": "Provides food, pre-school education, primary health-care, immunization, health check-up and referral services to children under 6 years of age and to their mothers.",
 		"data": {
 		  "ABOUT": "It is a government programme in India which provides food, pre-school education, primary health-care, immunization, health check-up and referral services to children under 6 years of age and to their mothers.",
-		  "AIM": "To reduce the incidence of mortality, morbidity, malnutrition and school dropout",
-		  "ELIGIBILITY": "Pregnant Women, all children up-to the age of six years, Lactating Women or Mothers.",
+		  "AIM": "1. To reduce the incidence of mortality, morbidity, malnutrition and school dropout\n2. To achieve effective co-ordination of policy and implementation amongst the various departments to promote child development\n3. To enhance the capability of the mother to look after the normal health and nutritional needs of the child through proper nutrition and health education",
+		  "ELIGIBILITY": "Pregnant Women, all children up-to the age of six years, Lactating Women or Mothers",
+		  "NOTE": "No documents are required except those which establish the relation between the mother and her child.",
 		  "BENEFITS OF SCHEME": "Immunization, Supplementary nutrition, Health check-up, Referral services, Pre-school education (Non-Formal), Nutrition and Health information"
 		}
 	},
     {
-        "id": 2,
 		"title": "Navodaya Vidyalaya Scheme",
 		"subtitle": "education",
-		"short_text": "Provide good quality modern education",
+		"short_text": "Provides good quality modern education",
 		"data": {
 		  "ABOUT": "Navodaya Vidyalaya Samiti is a Autonomous body under Ministry of Education(Govt. of India). NVS was founded by Government of india in 1985. Total 661 JNVs have been sanctioned in 638 districts of India. Additional JNVs have been sanctioned in 23 districts. Each Navodaya Vidyalaya is a co-educational residential institution providing free boarding and lodging, free school uniforms, text books, stationery, and to and fro rail and bus fare to students. The medium of instruction will be mother-tongue/regional language upto VII or VIII Class. Thereafter the common medium would be Hindi/English in all Navodaya Vidyalayas.",
 		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
-		  "ELIGIBILITY": "Only candidates from the district where the Jawahar Navodaya Vidyalaya has been opened are eligible to apply for admission.",
-		  "BENEFITS OF SCHEME": "Scouts And Guide Activities, National Service Scheme(NSS), Adolescence Education Programme, National Cadet Corps in JNV."
+		  "ELIGIBILITY": "1. Only candidates from the district where the Jawahar Navodaya Vidyalaya has been opened are eligible to apply for admission.\n2. Candidates appearing for the selection test must be studying in Class-V for the entire academic session in a Government/Government-Aided, other recognized school or ‘B’ Certificate Competency Course of National Institute of Open Schooling, in the same district where he/she seeks admission.\n3. A candidate seeking admission must be within the age group of 9 to 13 years. This is applicable to candidates of all categories, including those who belong to the Scheduled Castes(SCs) and Scheduled Tribes (STs).\n4. A candidate claiming admission from rural quota must have studied and passed Classes- III, IV and V from a Govt./Govt. Aided/ recognised school spending one full academic session each year in a school located in a rural area.\n5. A candidate who has studied in a school located in an urban area even for a single day of a session in any of the Classes-III, IV or V, will be considered as an Urban area candidate. Urban areas are those, which are so notified in the 2011 Census or through a subsequent Government Notification. All other areas will be considered as rural.\n6. A candidate who has not been promoted and admitted to Class-V before 30th September, is not eligible to apply.\n7. No candidate is eligible to appear in the JNV Selection Test for a second time, under any circumstances.",
+		  "BENEFITS OF SCHEME": "National Games And Sports Meet, Museum Corner, Multi Gyms, National Foundation For Communal Harmony (NFCH), Swachhata Campaign, Pestalozzi(a charity in England offering Diploma with Scholarship), National Talent Search Examination (NTSE), Regional Science Congress, Scouts And Guide Activities, National Service Scheme(NSS), Adolescence Education Programme, National Cadet Corps in JNV."
 		}
 	},
 	{
-        "id": 3,
 		"title": "Lal Bahadur Shastri Scholarship",
 		"subtitle": "education",
 		"short_text": "To provide financial support to meritorious students of economically weaker sections of society.",
 		"data": {
 		  "ABOUT": "Lal Bahadur Shastri Scholarship’s (LBSS) main objective is to provide financial support to meritorious students of economically weaker sections of society. It is introduced by education department of Delhi government.",
-		  "AIM": "To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.",
+		  "AIM": "To provide financial support to meritorious students of economically weaker sections of society.",
 		  "ELIGIBILITY": "The students must be an Indian citizen and should be studying in class 6 to 10. The students must be enrolled in a government or government-aided schools located anywhere in India. The students must have obtained at least 60% marks in their previous year final exam. The family income of the applicants must not exceed Rs 3.5 lakhs per annum.",
 		  "BENEFITS OF SCHEME": " Every year, Lal Bahadur Shastri Trust Delhi selects 110 students for the Lal Bahadur Shastri Scholarship Delhi. This scholarship aims to support poor and meritorious students financially. Every year, the selected students are given a scholarship amount worth Rs 3000 to 4000 per year. The list of selected students will be published on the official website. On selection, the students will be paid the scholarship amount directly to their bank account or through bank cheque."
 		}
 	},
 	{
-        "id": 4,
 		"title": "National Means-Cum-Merit Scholarship Scheme(NMMSS)",
 		"subtitle": "education",
-		"short_text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships.",
-		"data": {
-		  "ABOUT": "...",
-		  "AIM": "...",
-		  "ELIGIBILITY": "...",
-		  "BENEFITS OF SCHEME": "..."
-		}
+		"short_text": "To prevent the dropping of studies in class VIII by meritorious students from economically weaker sections, to encourage the continuation of studies and completion of studies up to the secondary level, to provide scholarships."
 	},
 	{
-        "id": 5,
 		"title": "National Scheme Incentives to Girls for Secondary Education (NSIGSE)",
 		"subtitle": "education",
 		"short_text": "To provide a further incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school.",
 		"data": {
 		  "ABOUT": "The Finance Minister in his budget announcement 2006-07 (Para-38-Credit of funds under Kasturba Gandhi Balika Vidyalayas) has inter-alia stated as under:- 'The initial results of the Kasturba Gandhi Balika Vidyalaya Scheme launched in 2004 are encouraging. 1,000 new residential schools for girls from SC, ST, OBC and Minority communities will be opened in 2006-07. I have provided Rs.128 crore, and I have agreed to provide an additional sum of Rs.172 crore during the year. I propose to provide a further Incentive to the girl child who passes the VIII Standard Examination and enrolls in secondary school. A sum of Rs.3,000 will be deposited in her name, and she would be entitled to withdraw it on reaching 18 years of age.'",
 		  "AIM": "To promote the girl child's enrolment of 14-18 years age group at secondary stage, who passes class VIII and subsequently drops out for various socio-economic reasons.",
-		  "ELIGIBILITY": "To be eligible for the benefit under the scheme the girl should be unmarried and should be below 16 years of age (as on 31st March) on joining class IX. In addition, the scheme is made applicable to the girls, who pass class VIII examination from Kasturba Gandhi Balika Vidhyalayas irrespective of whether they belong to Scheduled Castes or Tribes. The beneficiary will have to continue her study at least for two years in the secondary school after her enrollment in Class IX in order to avail the benefit under the scheme. The Principal/ Head of the school will furnish a certificate to this effect. To be eligible to draw the matured amount a pre-condition would be for the beneficiary to pass class X Board examination successfully.",
-		  "BENEFITS OF SCHEME": "..."
+		  "ELIGIBILITY": "1. To be eligible for the benefit under the scheme the girl should be unmarried and should be below 16 years of age (as on 31st March) on joining class IX.\n2. In addition, the scheme is made applicable to the girls, who pass class VIII examination from Kasturba Gandhi Balika Vidhyalayas irrespective of whether they belong to Scheduled Castes or Tribes.\n3. The beneficiary will have to continue her study at least for two years in the secondary school after her enrollment in Class IX in order to avail the benefit under the scheme. The Principal/ Head of the school will furnish a certificate to this effect. To be eligible to draw the matured amount a pre-condition would be for the beneficiary to pass class X Board examination successfully.\n4. There would be no restriction based on income criteria for grant of incentive to girls, because SC/ST girls and girls passing out from KGBVs and studying in Government, Government-aided and local body schools would generally be from disadvantaged section of the society."
 		}
 	},
 	{
-        "id": 6,
 		"title": "Samagra Shiksha",
 		"subtitle": "education",
 		"short_text": "To ensure inclusive and equitable quality education at all levels of school education.",
 		"data": {
 		  "ABOUT": "Samagra Shiksha is an integrated scheme for school education extending from pre-school to class XII to ensure inclusive and equitable quality education at all levels of school education. It subsumes the three Schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA) and Teacher Education (TE). The scheme treats school education holistically as a continuum from Pre-school to Class 12. The main emphasis of the Scheme is on improving the quality of school education by focussing on the two T’s – Teacher and Technology.'",
 		  "AIM": "To ensure inclusive and equitable quality education at all levels of school education.",
-		  "ELIGIBILITY": "● Resource Person's for CWSN: Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years. ● SpecialEducator Secondary (9-12): Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.",
-		  "BENEFITS OF SCHEME": "This scheme is mainly focused on reducing the social and gender gaps between the sexes. To support and promote the children’s right to free and compulsory education according to the RTE Act, 2009. The Samagra Shiksha Abhiyan Scheme aims at increasing the quality of education provided by the State education boards."
+		  "ELIGIBILITY": "1. Resource Person's for CWSN: Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.\n2. SpecialEducator Secondary (9-12): Bachelor Degree with minimum 50% marks form University/Colleges Recognized by the UGC/NCTE/RCI/MHRD. or M.Ed./B.Ed./D.Ed. In Special Education with minimum 50% marks from the institution recognized by the NCTE/RCI/MHRD. Age Limit: 50 years.",
+		  "BENEFITS OF SCHEME": "1. This scheme is mainly focused on reducing the social and gender gaps between the sexes.\n2. To support and promote the children’s right to free and compulsory education according to the RTE Act, 2009.\n3. The Samagra Shiksha Abhiyan Scheme aims at increasing the quality of education provided by the State education boards.\n4. The scheme would aim in strengthening and upgrading the state boards as nodal agencies for enhanced teachers training.\n5. The scheme also was launched with an aim of promoting the vocationalising of education.\n6. The Samagra Shiksha Abhiyan Scheme is aimed at ensuring the minimum standard in school education.\n7. Last but not the least, this scheme is designed to ensure the equity and inclusion of all levels of school education."
 		}
 	},
 	{
-        "id": "edu7",
-        "title": "Central Sector Scheme Of Scholarship (CSSS)",
-        "subtitle": "education",
-        "text": "To provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies."
-    },
+		"title": "Central Sector Scheme Of Scholarship(CSSS)",
+		"subtitle": "education",
+		"short_text": "For college and university students",
+		"data": {
+		  "ABOUT": "The objective of the scheme is to provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies.'",
+		  "AIM": "The objective of the scheme is to provide financial assistance to the meritorious students, to meet a part of their day-to-day expenses while pursuing higher studies.",
+		  "BENEFITS OF SCHEME": "1. The rate of scholarship is Rs. 10000/- per annum at Graduation level for first three years of College and University courses and Rs. 20000/- per annum at Post-Graduation level.\n2. Students pursuing professional courses are paid Rs. 20,000/- per annum in the 4th and 5th year."
+		}
+	},
 	{
-        "id": "emp1",
-        "title": "National Career Service",
-        "subtitle": "employment",
-        "text": "To primarily connect the opportunities with the aspirations of youth. The scheme facilitates registration of job seekers, job providers, skill providers, career counsellors, etc. and provides job matching services in a highly transparent and user friendly manner."
-    },
-	{
-        "id": "emp2",
-        "title": "Sampoorna Grameen Rozgar Yojana",
-        "subtitle": "employment",
-        "text": "To attain the aim of providing gainful employment for the rural poor of the country. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas."
-    },
+		"title": "National Career Service",
+		"subtitle": "employment",
+		"short_text": "To primarily connect the opportunities with the aspirations of youth.",
+		"data": {
+		  "ABOUT": "National Career Service is developed primarily to connect the opportunities with the aspirations of youth. The scheme facilitates registration of job seekers, job providers, skill providers, career counsellors, etc. and provides job matching services in a highly transparent and user friendly manner.",
+		  "AIM": "To primarily connect the opportunities with the aspirations of youth.",
+		  "ELIGIBILITY": "Anyone can seek services provided in the NCS portal through a simple registration process: 1. Age: 14 years and above\n2. Qualification: There is no minimum qualification for registration",
+		  "DOCUMENTS REQUIRED": "One must furnish basic details such as:\n1. Name\n2. date of birth\n3. qualifications\n4. email id\n5. phone number\n6. unique identification document number such as Aadhaar Card number, PAN card number, Driver’s license number, Passport, NREGA card number Voters ID card number etc.",
+		  "BENEFITS OF SCHEME": "1. Unemployed candidates seeking jobs\n2. Students seeking career counselling\n3. Candidates seeking vocational / occupational guidance\n4. Illiterate, under-privileged sections of society, blue-collar workers seeking placements and guidance\n5. Person with different abilities (PWDs), ex-servicemen, veterans / senior citizens, etc.\n6. Employers seeking suitable candidates"
+		}
+	},
+   	{
+		"title": "Sampoorna Grameen Rozgar Yojana",
+		"subtitle": "employment",
+		"short_text": "To attain the aim of providing gainful employment for the rural poor of the country. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas.",
+		"data": {
+		  "ABOUT": "The Sampoorna Grameen Rozgar Yojana is a national scheme launched by the Government of India to attain the aim of providing gainful employment for the rural poor of the country. The programme is implemented through the Panchayati Raj institutions, is self-targeting in nature and aims to provide employment and food to people in rural areas who live below the poverty line. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas. The Policy was formed by combining two already existing schemes, namely: Employment Assurance Scheme (EAS) and Jawahar Gram Samridhi Yojana (JGSY).",
+		  "AIM": "To attain the aim of providing gainful employment for the rural poor of the country. Another objective is the creation of durable community, social and economic assets and infrastructural development in rural areas.",
+		  "ELIGIBILITY": "1. Any person living in rural conditions and considerably below the poverty line can approach the local village council and apply.\n2. DOCUMENTS REQUIRED: AADHAR CARD.",
+		  "BENEFITS OF SCHEME": "1. Though special provisions for people living below the poverty line exist, these can also be extended to people living above the poverty line.\n2. Provisions for women, scheduled castes, scheduled tribes and parents of children withdrawn from hazardous occupations.\n3. 22.5% of the annual allocation (inclusive of foodgrains) allocated both at the level of district and intermediate panchayats is allocated for individual/group beneficiary schemes of sc/st families living below the poverty line (BPL).\n4. 30% of employment opportunities for women under the programme.\n5. Wages will partly be paid in form of foodgrains.\n6. Wages will be handed out on a fixed day of the week."
+		}
+	},
     {
-        "id": "health1",
-        "title": "Rajiv Gandhi Shilpi Swasthya Bima Yojna",
-        "subtitle": "health",
-        "text": "To provide financial aid to the artisan community to access the best of healthcare facilities in the country."
-    },
+		"title": "Rajiv Gandhi Shilpi Swasthya Bima Yojna",
+		"subtitle": "health",
+		"short_text": "To provide financial aid to the artisan community to access the best of healthcare facilities in the country.",
+		"data": {
+		  "ABOUT": "The scheme comes under the National Handicrafts Development Programme under the section Ambedkar Hastshilp Vikas Yojna.",
+		  "AIM": "Rajiv Gandhi Shilpi Swasthya Bima Yojana is aimed towards providing financial aid to the artisan community to access the best of healthcare facilities in the country.",
+		  "ELIGIBILITY": "All Craft persons( Handicraft artisans) whether male or female, between the age group of one day to 80 years are eligible to avail the scheme.",
+		  "BENEFITS OF SCHEME": "Annual limit per family (1+4) Which includes self, spouse and three dependent family members:\n1. IPD: Amount- Rs. 30,000/-\n2. OPD: Amount- Rs.7,500/-"
+		}
+	},
+    	{
+		"title": "Rashtriya Swasthya Bima Yojana",
+		"subtitle": "health",
+		"short_text": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme.",
+		"data": {
+		  "ABOUT": "It is a government-run health insurance program for the Indian poor. The scheme aims to provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme. It is active in 25 states of India. It provides for IT-enabled and smart–card-based cashless health insurance cover.",
+		  "AIM": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme.",
+		  "ELIGIBILITY": "It is designed to target the Below Poverty Line (BPL) households, and also has expanded to cover other defined categories of unorganised workers, covering:\n1. Building and other construction workers registered with the Welfare Boards\n2. Licensed Railway Porters\n3. Street Vendors\n4. MNREGA workers who have worked for more than 15 days during the preceding financial year\n5. Domestic Workers\n6. Sanitation Workers\n7. Mine Workers\n8. Rickshaw pullers\n9. Rag pickers\n10. Auto/Taxi Driver",
+		  "BENEFITS OF SCHEME": "1. The beneficiaries under RSBY are entitled to hospitalization coverage up to Rs. 30,000/- per annum on family floater basis, which includes transportation allowance of 100/ hospitalization to maximum of Rs 1,000 .\n2. Cashless treatment through biometric smart cards with across- the- country portability\n3. The beneficiaries need to pay only Rs. 30/- as registration fee for a year while Central and State Government collectively pays the premium.\n4. Insurance cover to pre-existing diseases.\n5. No age restrictions for enrollment."
+		}
+	},
 	{
-        "id": "health2",
-        "title": "Rashtriya Swasthya Bima Yojana",
-        "subtitle": "health",
-        "text": "To provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members shall be beneficiaries under this scheme."
-    },
-	{
-        "id": "health3",
-        "title": "Suvidha",
-        "subtitle": "health",
-        "text": "Under this campaign, sanitary napkins are being made available at a minimum cost of Re 1 in more than 6300 Pradhanmantti Jan Aushadhi Centers across the country."
-    },
+		"title": "Suvidha",
+		"subtitle": "health",
+		"short_text": "To create a safe space that empowers the women to go and buy, especially when it comes to rural areas.",
+		"data": {
+		  "ABOUT": "In many parts of the country especially in rural areas girls and women do not have access to sanitary products or they do not opt for them as most of these items available in the market are bit costly.\nThe Suvidha Scheme under the Pradhan Mantri Bharatiya Janashadhi Pariyojana(PMBJY) ensured ‘Swachhta, Swasthya and Suvidha’ for the underprivileged Women of India. This step has been taken by the Union Department of Pharmaceuticals to ensure the achievement of  Prime Minister vision of Affordable and Quality Healthcare for All. On the eve of World Environment Day 4th June 2018, Government of India proudly announced the launch of “Jan Aushadhi Suvidha Oxo-Biodegradable Sanitary Napkin” for women of India.",
+		  "AIM": "1. To raise awareness about switching from unhygienic cloth piece to pads.\n2. To provide a unique product ensuring affordability, hygiene.\n3. An environmental-friendly product for ease of use & disposal for them.\n4. To provide an affordable product so that the importance of menstrual hygiene reaches every woman.\n5. To create a safe space that empowers the women to go and buy, especially when it comes to rural areas.",
+		  "NOTE": "1. These are made available through all Jan Aushadhi stores.\n2. The Jan Aushadhi Sugam mobile app also helps in locating stores along with information and details related to medicines available at these stores.\n3. A website where we can gather information about various generic medicines and necessities.",
+		  "BENEFITS OF SCHEME": "1. With proper guidance, education and use of sanitary pads, it will helps women to break the illusion of considering menstruation as a taboo.\n2. It will help them to prevent leakage and save their valuable clothes from blood stains and humiliation in public.\n3. It will help them to prevent various injuries and infections like vaginal infection as in case of using cloth pads or any other stuff.\n4. It is very convenient than cloth pads because sanitary pads comes in a variety of sizes and absorption level, also, they contain an fragrance which blocks the pungent bleeding  smell.\n5. The availability of these oxo-biodegradable pads at Re 1/piece is very eco-friendly since women can safely use it and when used it break drown into biodegrade in presence of oxygen, i.e., no harm to the environment.\n6. It helps in creating a safe space for women especially in the rural areas, where they can openly discuss about menstruation, sanitary pads, openly go and buy it and so on."
+		}
+	},
     {
-        "id": "house1",
-        "title": "Construction Worker Housing Assistance Scheme",
-        "subtitle": "housing",
-        "text": "This scheme is for workers working in construction work. The main objective of the scheme is to provide assistance to these workers for the availability of houses."
-    },
+		"title": "Construction Worker Housing Assistance Scheme",
+		"subtitle": "housing",
+		"short_text": "This scheme is for workers working in construction work. The main objective of the scheme is to provide assistance to these workers for the availability of houses.",
+		"data": {
+		  "ABOUT": "This scheme is for workers working in construction work. These laborers originally come from poor class and their B.P.L. Due to lack of cards, they do not get the benefit of other schemes when they are eligible for them. Therefore, the main objective of the scheme is to provide assistance to these workers for the availability of houses.",
+		  "AIM": "The main objective of the scheme is to provide assistance to these workers for the availability of houses.",
+		  "ELIGIBILITY": "1. Updated Registered Workers.\n2. The worker or his family does not have a permanent residential house and has enough to build a house. Land should be available.\n3. The applicant or any member of his family has not received the benefit of any housing scheme under any department / scheme of the Central / State Government.\n4. Registration of applicant should be 05 years old and maximum age should be 55 years.\n5. Benefit payable once in whole life.",
+		  "REQUIRED DOCUMENT": "1. Application form in 03 copies.\n2. Update registration certificate\n3. Permanent residence certificate of the applicant\n4. Evidence of availability of land with the applicant\n5. Non-availment of residential facility in any other scheme and pucca house with family declaration Form Regarding Not Being\n6. Copy of Aadhar card and bank passbook",
+		  "BENEFITS OF SCHEME": "1. An amount of Rs.1,00,000 / - will be payable to build or purchase a new house on completion of the prescribed norms under this scheme.\n2. An amount of Rs.15,000 / - will be provided as a grant to repair the previously available accommodation.\n3. Both benefits are not payable simultaneously to the same beneficiary.\n4. The scheme conforms to the standards of the Prime Minister's Housing Scheme."
+		}
+	},
 	{
-        "id": "house2",
-        "title": "Housing for EWS and JJ Basti in Delhi (DUSIB)",
-        "subtitle": "housing",
-        "text": "Aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability."
-    },
+		"title": "Housing for EWS and JJ Basti in Delhi (DUSIB)",
+		"subtitle": "housing",
+		"short_text": "Aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability.",
+		"data": {
+		  "ABOUT": "DDA Housing scheme(EWS flats) aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability. The scheme has been designed keeping in view the cost effectiveness, paying capacity of the target group, mode of payment of cost by the allotees and feasibility of   the accommodation from the users point of view. This scheme is linked with Pradhan Mantri Awas Yojna. Thus people can avail a subsidy of Rs 2.67lac. The beneficiaries can also take loan to pay the cost of flats. For loan up to Rs. 6lac upfront subsidy of 6.5% per annum on interest will be provided. Interest subsidy will be directly credited to the beneficiary loan account. This benefit is for a maximum 20-tenure. Up to Rs. 1.5 lac central assistance will be provided  for the construction or enhancement of new house. This scheme provides 1 BHK flats in the range of Rs.10lac-Rs.19lac.",
+		  "AIM": "Aims to improve the quality of life of dwellers in slum areas, by providing them residential flats on easier terms/ cash down basis linked with affordability.",
+		  "ELIGIBILITY": "1. The beneficiary family/household should not own a pucca house(an all whether dwelling unit) either in his/her name or in the name of any member of his/her family in any part of India.\n2. The applicant must have attained the age of majority(18 years).\n3. The income of applicants applying for EWS flats should not exceed Rs.3 lakhs per annum and Household income should not exceed Rs. 10 Lakh per annum.\n4. Applicant must have Permanent Account Number(PAN).\n5. The applicant must have savings bank account."
+		}
+	},
 	{
-        "id": "house3",
-        "title": "Pradhan Mantri Awas Yojana (PMAY)",
-        "subtitle": "housing",
-        "text": "Aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022."
-    },
-    {
-        "id": "insur1",
-        "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
-        "subtitle": "insurance",
-        "text": "To provide a universal social security net for the needy and disadvantaged sections of society, offers affordable life insurance in the case of death of the insured person due to any cause."
-    },
+		"title": "Pradhan Mantri Awas Yojana (PMAY)",
+		"subtitle": "housing",
+		"short_text": "Aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022.",
+		"data": {
+		  "ABOUT": "Pradhan Mantri Awas Yojana Mission was launched on 25th June 2015. It intends to make it better for homeless people in India. Also known as ‘Housing for all by 2022’, this credit-linked subsidy scheme (CLSS) aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022.",
+		  "AIM": "Aims to construct more than 2 crore houses for those people belonging to the Low-Income Families, Middle Income Groups and Economically Weaker Sections by 2022.",
+		  "ELIGIBILITY": "The following individuals and families are eligible for this scheme:\n1. Economically Weaker Section (EWS) – Families with an annual income up to Rs. 3 Lakh.\n2. Low Income Group (LIG) – Families with an annual income between Rs. 3 Lakh and Rs. 6 Lakh.\n3. Middle Income Group I (MIG I) – Families within an annual income between Rs. 6 Lakh and Rs. 12 Lakh.\n4. Middle Income Group II (MIG II) – Families with an annual income between Rs. 12 Lakh and Rs. 18 Lakh.\n5. Women belonging to EWS and LIG categories.\n6. Scheduled Caste (SC), Scheduled Tribe (ST), and Other Backward Class (OBC).",
+		  "BENEFITS OF SCHEME": "1. Government will provide an interest subsidy as per the economic section on housing loans availed by the beneficiaries for a period of 15 years from the commencement of their loan tenure.\n2. This scheme can well be termed as a Pro-women scheme due to its preference over to the female applicants in the family.\n3. During the allocation of houses under the scheme of PMAY, the preference in allocating the ground floors will be given to the senior citizens and to the differently-abled.\n4. All the houses built under PMYA scheme would be carried out through technology and will have eco-friendly compliance."
+		}
+	},
 	{
-        "id": "insur2",
-        "title": "Pradhan Mantri Suraksha Bima Yojana",
-        "subtitle": "insurance",
-        "text": "The risk coverage under the scheme is Rs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. The premium of Rs. 12 per annum is to be deducted from the account holder’s bank account through ‘auto-debit’ facility in one installment."
-    },
-    {
-        "id": "loan1",
-        "title": "Shilpi Samriddhi Yojana (SSY)",
-        "subtitle": "loan",
-        "text": "To provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation."
-    },
+		"title": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+		"subtitle": "insurance",
+		"short_text": "To provide a universal social security net for the needy and disadvantaged sections of society, offers affordable life insurance in the case of death of the insured person due to any cause.",
+		"data": {
+		  "ABOUT": "LAUNCH – May 2015",
+		  "AIM": "To provide a universal social security net for the needy and disadvantaged sections of society.",
+		  "ELIGIBILITY": "Available to people between 18 and 50 years of age with bank accounts.",
+		  "POLICY DETAILS": "1. Annual premium - ₹330.\n2. Validity – 1 year\n3. Renewable - fixed timeline of 1st Jun to 31st May ever year\n4. Termination – Policy will lose its effect once the insured attains 55 years of age.\n5. Cooling Period – 45 days, this is not applicable in the event of death due to accident.\n6. In case of death of the insured person due to any cause, the payment to the nominee will be ₹2 lakh. Maturity benefit and surrender benefit are not available.",
+		  "BENEFITS OF SCHEME": "Offers affordable life insurance in the case of death of the insured person due to any cause. On the premium paid is available under section 80C of the Income Tax Act, 1961."
+		}
+	},	
 	{
-        "id": "loan2",
-        "title": "Skill Loan Scheme",
-        "subtitle": "loan",
-        "text": "To provide institutional credit to individuals for skills related to National Business Standards and Qualification Packs."
-    },
+		"title": "Pradhan Mantri Suraksha Bima Yojana",
+		"subtitle": "insurance",
+		"short_text": "The risk coverage under the scheme is Rs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. The premium of Rs. 12 per annum is to be deducted from the account holder’s bank account through ‘auto-debit’ facility in one installment.",
+		"data": {
+		  "ABOUT": "Pradhan Mantri Suraksha Bima Yojana is a government-backed accident insurance scheme in India. It was originally mentioned in the 2015 Budget speech by Finance Minister Late Arun Jaitley in February 2015. It was formally launched by Prime Minister Narendra Modi on 8 May in Kolkata alongside two other social security schemes under Pradhan Mantri Jan-Dhan Yojana.",
+		  "ELIGIBILITY": "The Scheme is available to people in the age group 18 to 70 years with a bank account who give their consent to join / enable auto-debit on or before 31st May for the coverage period 1st June to 31st May on an annual renewal basis. Aadhar would be the primary KYC for the bank account. The scheme is being offered by Public Sector General Insurance Companies or any other General Insurance Company who are willing to offer the product on similar terms with necessary approvals and tie up with banks for this purpose.",
+		  "BENEFITS OF SCHEME": "The risk coverage under the scheme is Rs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. The premium of Rs. 12 per annum is to be deducted from the account holder’s bank account through ‘auto-debit’ facility in one installment. Full disability has been defined as loss of use in both eyes, hands or feet. Partial Permanent disability has been defined as loss of use in one eye, hand or foot. Further, death due to suicide, alcohol, drug abuse, etc. are not covered."
+		}
+	},  
 	{
-        "id": "loan3",
-        "title": "Transport Loan Scheme",
-        "subtitle": "loan",
-        "text": "Grants loans for the purchase of autorickshaw, tourist taxi, delivery vans, tempos, trucks and lorries, tankers, tippers, trailers, passenger bus (with route permit), tractor- trailors (nonagricultural and public carriers only) up to a maximum number of 20 vehicles (including existing ones) per unit."
-    },
-    {
-        "id": "misc1",
-        "title": "Delhi Family Benefit Scheme (DFBS)",
-        "subtitle": "miscellaneous",
-        "text": "To strengthen the social security of the benefited families, for the Below Poverty Line(BPL) families. This scheme provides one time assistance to the families whose alone bread earner expires."
-    },
+		"title": "Shilpi Samriddhi Yojana (SSY)",
+		"subtitle": "loan",
+		"short_text": "To provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation.",
+		"data": {
+		  "ABOUT": "The National Scheduled Castes Finance and Development Corporation (NSFDC) has initiated the Shilpi Samriddhi Yojana to provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation. The scheme intends to cover the income-generating activities to the target group through state Channalising Agencies.",
+		  "AIM": "To provide financial support for the small income generation activities. It aims to finance for the economic empowerment of people belonging to the Scheduled Castes (SC) families those who are living below the poverty line and also ensures their skill upgradation.",
+		  "ELIGIBILITY": "1. The applicant must be belonging to the Scheduled Castes.\n2. The annual income of the family must be below the poverty line limit as prescribed timely. In rural areas, the income limit should be up to Rs.81000 and in rural areas, it is limited to Rs.103000 in urban areas.\n3. The age of the applicant to be between 18 to 50 years to apply for this loan.\n4. All applicants registered under this scheme who must meet the conditions as per above- given conditions that would also be eligible for loans under the Scheme.",
+		  "PROVISION FOR FINANCE": "Project Cost: Maximum Rs.50000, Subsidy: 50% of the project cost and Rs.10000 whichever is less, Margin Money Loan: Nil, Term Loan: Nil, Rate of Interest: 5% per annum."
+		}
+	}, 	  
 	{
-        "id": "misc2",
-        "title": "Financial Assistance to Persons with Special Needs English",
-        "subtitle": "miscellaneous",
-        "text": "Covers Persons with Disabilities (PwDs) with not less than 40% disability and having a disability certificate to this effect issued by a competent medical authority to promote economic developmental activities for the benefit of persons with disabilities."
-    },
+		"title": "Transport Loan Scheme",
+		"subtitle": "loan",
+		"short_text": "Grants loans for the purchase of autorickshaw, tourist taxi, delivery vans, tempos, trucks and lorries, tankers, tippers, trailers, passenger bus (with route permit), tractor- trailors (nonagricultural and public carriers only) up to a maximum number of 20 vehicles (including existing ones) per unit.",
+		"data": {
+		  "AIM": "TIiC grants loans for the purchase of autorickshaw, tourist taxi, delivery vans, tempos, trucks and lorries, tankers, tippers, trailers, passenger bus (with route permit), tractor- trailors (nonagricultural and public carriers only) up to a maximum number of 20 vehicles (including existing ones) per unit. Earth Movers, Mobile crane, Fly ash carrier, Loader, Concrete Mix Pump vehicles etc., can also be considered.",
+		  "ELIGIBILITY": "(i) The vehicle should be registered in the state of Tamilnadu.\n(ii) The vehicle should be registered as a ‘public carrier’.\n(iii) Loan will be considered for individuals, Prop./p.ship firm/ pvt. /public Ltd. companies and registered Co-op. societies.",
+		  "PROMOTER’S CONTRIBUTION": "15% – Auto / Share Auto / Minidor, 20% – Loans up to Rs. 10 lakhs, 25% – Loans more Rs.10 lakh"
+		}
+	},	
 	{
-        "id": "misc3",
-        "title": "Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (RGSEAG)- SABLA",
-        "subtitle": "miscellaneous",
-        "text": "To ensure adolescent girls self-development and empowerment, improve the nutrition and health status of adolescent girls of 11 to 18 years, promote awareness about health, hygiene, nutrition, adolescent reproductive and sexual health (ARSH) and family and child-care."
-    },
+		"title": "Delhi Family Benefit Scheme (DFBS)",
+		"subtitle": "miscellaneous",
+		"short_text": "To strengthen the social security of the benefited families, for the Below Poverty Line(BPL) families. This scheme provides one time assistance to the families whose alone bread earner expires.",
+		"data": {
+		  "ABOUT": "Launched in 1995.",
+		  "AIM": "The main objective of the scheme is to strengthen the social security of the benefited families, for the Below Poverty Line(BPL) families. This scheme provides one time assistance to the families whose alone bread earner expires. “Bread Earner ” means member whose earnings contributed the largest proportion to the total household income. ",
+		  "ELIGIBILITY": "1. Age of the deceased should be between 18-60 years, i.e. death of the bread earner has occurred while he/she was in the age group 18-60 years.\n2. Resident of Delhi for more than 5 years before the date of application.\n3. Family income of the applicant should not be more than Rs.1,00,000 per annum.\n4. The applicant should have an Aadhaar number.\n5. The applicant should have a singly operated bank account in any bank in National Territory of Delhi only for receiving the payment through Public Financial Management System(PFMS).",
+		  "BENEFITS OF SCHEME": "1. This scheme covers both kinds of death i.e. either accidentally or natural.\n2. A lump sum of Rs.20,000 is given to the family.\n3. The amount is being paid to the surviving member of the deceased after the local inquiry determines who is to be the head of the house which includes spouse ,minor children, unmarried daughter and dependent parents.\n4. This scheme runs under the state sector."
+		}
+	},	
 	{
-        "id": "misc4",
-        "title": "Sukanya Samriddhi",
-        "subtitle": "miscellaneous",
-        "text": "To raise funds for the education and marriage of the girls."
-    },
-    {
-        "id": "pension1",
-        "title": "Atal Pension Yojana (APY)",
-        "subtitle": "pension",
-        "text": "To give monthly pension of Rs.1000, Rs.2000, Rs.3000, Rs.4000 or Rs.5000 to people of age above 60."
-    },
+		"title": "Financial Assistance to Persons with Special Needs English",
+		"subtitle": "miscellaneous",
+		"short_text": "Covers Persons with Disabilities (PwDs) with not less than 40% disability and having a disability certificate to this effect issued by a competent medical authority to promote economic developmental activities for the benefit of persons with disabilities.",
+		"data": {
+		  "ABOUT": "The scheme will cover Persons with Disabilities (PwDs) with not less than 40% disability and having a disability certificate to this effect issued by a competent medical authority.",
+		  "AIM": "1. Promote economic developmental activities for the benefit of persons with disabilities.\n2. Promote self-employment and other ventures for the benefit/ economic rehabilitation of persons with disabilities.\n3. Extend loans to person with disability for pursuiting general/ professional/technical education for training at graduate and higher level.\n4. Assist in the upgradation of technical and entrepreneurial skills of persons with disability for proper and efficient management of production units.\n5. Assist self-employed individuals/ group of individuals of registered factories/ companies/ co-operatives of disabled persons in marketing their finished goods and assist in procurement of raw materials.",
+		  "ELIGIBILITY": "1. To persons with disability irrespective of age (i.e. From birth until death)\n2. Disability 40% or more to persons with following disabilities- Blindness, Low vision, Leprosy-cured, Deaf, Locomotor Disability, Cerebral Palsy, Autism Spectrum Disorder, Intellectual Disability (Mental Retardation), Mental Illness, Dwarfism, Muscular Dystrophy, Acid Attack Victims, Hard of hearing, Speech and language disability, Specific Learning Disabilities, Multiple Sclerosis, Parkinson’s Disease, Haemophilia, Thalassemia, Sickle Cell Disease, Multiple Disabilities\n3. Residence of min. 5 years in the state of application before the date of application\n4. Annual family income of less than Rs 1,00,000 p.a. from all sources (including rent, interest on savings et cetera). Here “Family” means parents or if the parent(s) are not alive then legal guardian in case of the minor, unmarried, unemployed disabled person(s). In case of married disabled persons, it means wife /husband and minor or disabled adult children solely dependent on him/her. Applicant will need to give a self-declaration regarding income in the appropriate column provided in the application form.\n4. The applicant should have an Aadhaar number.\n6. The applicant should have a ‘singly-operated’ account in any Bank in National Capital Territory of Delhi only for receiving the payment through Public Financial Management System (PFMS). The provision for single account may be relaxed in case of minors.\n7. Must not be receiving any pension/ financial assistance from Central Govt/State Govt/ other governmental local bodies or any other source for this purpose."
+		}
+	},  
 	{
-        "id": "pension2",
-        "title": "Indira Gandhi National Old Age Pension Scheme",
-        "subtitle": "pension",
-        "text": "Aims to provide social protection to the eligible beneficiaries. Under this scheme, senior citizens of India will receive monthly pension."
-    },
+		"title": "Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (RGSEAG)- SABLA",
+		"subtitle": "miscellaneous",
+		"short_text": "To ensure adolescent girls self-development and empowerment, improve the nutrition and health status of adolescent girls of 11 to 18 years, promote awareness about health, hygiene, nutrition, adolescent reproductive and sexual health (ARSH) and family and child-care.",
+		"data": {
+		  "AIM": "1. To ensure adolescent girls self-development and empowerment\n2. Improve the nutrition and health status of adolescent girls of 11 to 18 years..\n3. Promote awareness about health, hygiene, nutrition, adolescent reproductive and sexual health (ARSH) and family and child-care.\n4. Upgrade home-based skills, life skills and integrate with the National Skill Development Program (NSDP) for vocational skills\n5. Mainstream out of school adolescent girls into formal/non-formal education.\n6. Provide information/guidance about existing public services such as PHC, CHC, post office, bank, police station, etc.",
+		  "ELIGIBILITY": "No documents/verification proof is required for adolescent girls to avail for this scheme rather it is a centrally sponsored scheme, implemented through the State Governments/UTs with 100% financial assistance from the Central Government for all inputs, except nutrition provision for which Government of India will share upto the extent of 50% of the financial norms or the actual expenditure incurred, whichever is less.",
+		  "BENEFITS OF SCHEME": "Nutrition, IFA Supplementation, Health check-up and Referral Services, Nutrition and Health Education (NHE), Guidance on Family Welfare, ARSH, Child Care Practices and Home Management, Life Skills Education and Accessing Public Services"
+		}
+	},			
 	{
-        "id": "pension3",
-        "title": "Pradhan Mantri Shram Yogi Maan-dhan",
-        "subtitle": "pension",
-        "text": "Pension scheme for unorganized workers for their old age protection and social security who are mostly engaged as rickshaw pullers, street vendors, mid-day meal workers, head loaders, brick kiln workers, cobblers, rag pickers, domestic workers, washermen, home-based workers, own-account workers, agricultural workers, construction workers, beedi workers, handloom workers, leather workers, audio-visual workers or in similar other occupations."
-    }
+		"title": "Indira Gandhi National Old Age Pension Scheme",
+		"subtitle": "pension",
+		"short_text": "Aims to provide social protection to the eligible beneficiaries. Under this scheme, senior citizens of India will receive monthly pension.",
+		"data": {
+		  "ABOUT": "Ministry of Rural Development of India has introduced IGNOAPS under National Social Assistance Programme (NSAP) in the year 2007.",
+		  "AIM": "The old age pension scheme aims to provide social protection to the eligible beneficiaries. Under this scheme, senior citizens of India will receive monthly pension.",
+		  "ELIGIBILITY": "1. The age of applicant should be 60 years or higher. (applicable for both male and female).\n2. Applicant must belong to household living below poverty line.\n3. Applicant must be destitute and having no regular source of financial support from family members or any other source.\n4. BPL widows and BPL persons with severe and multiple disabilities in the age group of 60-79 years are not eligible for this scheme.",
+		  "REQUIRED DOCUMENTS": "1. Application Form.\n2. Age certificate (obtained from concern medical officer and to be attested by the concerned Block medical officer).\n3. Income certificate.\n4. BPL card in the name of applicant.\n5. Bank passbook or post office passbook.\n6. Passport size photographs.",
+		  "BENEFITS OF SCHEME": "1. Age: 60 years to 79 years:- Indira Gandhi National Old Age Pension Scheme Amount: Rs. 200 per month\n2. Age: 80 years and above:- Indira Gandhi National Old Age Pension Scheme Amount: Rs. 500 per month"
+		}
+	},  
+	{
+		"title": "Pradhan Mantri Shram Yogi Maan-dhan",
+		"subtitle": "pension",
+		"short_text": "Pension scheme for unorganized workers for their old age protection and social security who are mostly engaged as rickshaw pullers, street vendors, mid-day meal workers, head loaders, brick kiln workers, cobblers, rag pickers, domestic workers, washermen, home-based workers, own-account workers, agricultural workers, construction workers, beedi workers, handloom workers, leather workers, audio-visual workers or in similar other occupations.",
+		"data": {
+		  "ABOUT": "It is a pension scheme for unorganized workers for their old age protection and social security who are mostly engaged as rickshaw pullers, street vendors, mid-day meal workers, head loaders, brick kiln workers, cobblers, rag pickers, domestic workers, washermen, home-based workers, own-account workers, agricultural workers, construction workers, beedi workers, handloom workers, leather workers, audio-visual workers or in similar other occupations.",
+		  "ELIGIBILITY": "1. Should be an unorganized worker (UW)\n2. Entry age between 18 and 40 years\n3. Monthly Income Rs 15000 or below\n4. Should not be engaged in Organized Sector(membership of EPF/NPS/ESIC), an income taxpayer\n6. He/ She should possess: Aadhar card, Savings Bank Account / Jan Dhan account number with IFSC",
+		  "BENEFITS OF SCHEME": "(i) Minimum Assured Pension: Each subscriber under the PM-SYM, shall receive minimum assured pension of Rs 3000/- per month after attaining the age of 60 years.\n(ii) Family Pension: During the receipt of pension, if the subscriber dies, the spouse of the beneficiary shall be entitled to receive 50% of the pension received by the beneficiary as family pension. Family pension is applicable only to spouse.\n(iii) If a beneficiary has given regular contribution and died due to any cause (before age of 60 years), his/her spouse will be entitled to join and continue the scheme subsequently by payment of regular contribution or exit the scheme as per provisions of exit and withdrawal."
+		}
+	}
 
 ]
