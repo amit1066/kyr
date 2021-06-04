@@ -71,9 +71,6 @@ const useStyles = makeStyles((theme) => ({
           <Typography variant="h4" color="textSecondary" style={{ textAlign: "center" }} gutterBottom>
             {props.title}
           </Typography>
-          <Typography variant="h5" component="h2" style={{textAlign: "center"}} color="textSecondary">
-            {props.subtitle}
-          </Typography>
           <Typography variant="body2" component="p">
             {props.short_text}
           </Typography>

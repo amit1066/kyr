@@ -1,13 +1,9 @@
 import React from "react";
-import { Grid, Typography, InputBase, Paper } from "@material-ui/core";
-import SearchIcon from '@material-ui/icons/Search';
+import { Grid, Typography, Paper } from "@material-ui/core";
 import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
 import { makeStyles, withStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
-import Policy from '../policy.jsx';
-import HealthArray from '../../data/health_data.json';
-import test from './test.jsx';
 
 import { green } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
@@ -18,18 +14,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import TextField from '@material-ui/core/TextField';
 import mostSearchedArray from '../../data/mostSearched.json'
-import { Box } from '@material-ui/core';
 import '../../App.css';
-import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import Dialog from '@material-ui/core/Dialog';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItem from '@material-ui/core/ListItem';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import AppBar from '@material-ui/core/AppBar';
 import MostSearchedDialog from "./mostSearchedDialog";
 
 const useStyles2 = makeStyles((theme) => ({

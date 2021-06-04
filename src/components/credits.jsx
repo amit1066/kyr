@@ -81,23 +81,23 @@ const Home = () => {
     return (
         <div>
             <Grid item container className={classes.AboutUs}>
-                <Grid item xs={0} sm={2} />
+                <Grid item xs={false} sm={2} />
           <Grid item xs={12} sm={8}>
             
             <h1>Team Of the Project </h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
                 </Grid>
 
-                <Grid item xs={0} sm={2} />
+                <Grid item xs={false} sm={2} />
         </Grid>
         <Grid item container className={classes.AboutUs}>
-               <Grid item xs={0} sm={2} />
+               <Grid item xs={false} sm={2} />
           <Grid item xs={12} sm={8}>
             <h1>Developers</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec eros sit amet velit mollis laoreet ut vel est. Praesent porta elementum ante, viverra efficitur mi consectetur quis. Donec luctus condimentum magna vel gravida. Suspendisse lectus massa, vestibulum et nibh at, ultricies finibus enim. Sed sed nunc metus. Vivamus vel elit blandit, fringilla magna a, vestibulum ipsum. Aenean et pretium augue. Donec quis dolor eget ante ultricies posuere at eu turpis. Proin suscipit augue, sed rhoncus massa. Maecenas consequat eu magna non pharetra. Aliquam erat volutpat. Donec lobortis tellus id ornare pulvinar. V
                 </Grid>
 
-                <Grid item xs={0} sm={2} />
+                <Grid item xs={false} sm={2} />
             </Grid>
            
         </div>
