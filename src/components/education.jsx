@@ -20,21 +20,14 @@ const useStyles2 = makeStyles((theme) => ({
 export default function FullScreenDialog() {
   const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = (thisTab) => {
-
-    setOpen(thisTab);
-  };
   const classes = useStyles2();
-  const handleClose = () => {
-    setOpen(false);
-  };
   
   return (
     <Box display="flex" p={1} style={{ width: '100%' }} flexWrap="wrap" flexDirection="row" justifyContent="center">
       
       {EducArray.map((data, i) => (
         <Box m={2} className={classes.PolicyBox} key={i}>
-          <Policy open={open === i}  handleClose={handleClose} handleClickOpen={() => handleClickOpen(i)} {...data} />
+          <Policy open={open === i}   {...data} />
           
         </Box>
                       

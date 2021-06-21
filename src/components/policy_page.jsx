@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: theme.spacing(2),
         flex: 1,
     },
-    
+
 
 }));
 
@@ -42,15 +42,15 @@ export default function PolicyPage(props) {
                     <Typography variant="h6" className={classes.title}>
                         {props.title}
                     </Typography>
-                    <Typography variant="h7" className={classes.title}>
-                        {props.short_text}
-                    </Typography>
-                    <Button autoFocus color="inherit" onClick={props.handleClose}>
-                explore another policy
-            </Button>
+                    <Button autoFocus color="inherit">
+                        explore another policy
+                    </Button>
                 </Toolbar>
             </AppBar>
             <List>
+                
+                    {props.short_text}
+                
                 {entries}
             </List>
         </>

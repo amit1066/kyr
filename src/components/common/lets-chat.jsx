@@ -130,29 +130,28 @@ const LetsChat = ({
   const initialEmail = useMemo(() => {
     return emailID ?? "";
   }, [emailID]);
-  const [businessName, setBusinessName] = useState("");
+  const [phone, setPhone] = useState("");
   const [url, setUrl] = useState("");
-  const [revenue, setRevenue] = useState("");
+  
   const [updates, setUpdates] = useState(false);
+  const [crux, setCrux] = useState("");
   const [email, setEmail] = useState(initialEmail);
   const isDisabled = useMemo(() => {
     return (
       firstName === "" ||
       lastName === "" ||
       email === "" ||
-      businessName === "" ||
-      url === "" ||
-      revenue === ""
-    );
-  }, [businessName, email, firstName, lastName, revenue, url]);
+      phone === "" ||
+      crux === ""
+      
+    )
+  }, [phone, email, firstName, lastName, crux]);
 
   const clearForm = useCallback(() => {
     setFirstName("");
     setLastName("");
     setEmail("");
-    setBusinessName("");
-    setRevenue("");
-    setUrl("");
+    setPhone("");
     setUpdates(false);
   }, []);
 
@@ -161,9 +160,9 @@ const LetsChat = ({
       firstName === "" ||
       lastName === "" ||
       email === "" ||
-      businessName === "" ||
-      url === "" ||
-      revenue === ""
+      phone === ""
+      
+      
     ) {
       return;
     } else {
@@ -171,9 +170,9 @@ const LetsChat = ({
         first_name: firstName,
         last_name: lastName,
         email: email,
-        business_name: businessName,
-        url: url,
-        annual_revenue: revenue,
+        phone: phone,
+        crux: crux,
+        
       };
       fetch("https://random.com/lets_talk", {
         method: "POST",
@@ -189,7 +188,7 @@ const LetsChat = ({
         }
       });
     }
-  }, [businessName, clearForm, email, firstName, lastName, revenue, url]);
+  }, [phone, clearForm, email, firstName, lastName, url]);
 
   useEffect(() => {
     setEmail(initialEmail);
@@ -206,7 +205,7 @@ const LetsChat = ({
             alignItems="center"
           >
             <Typography variant="h2" className={classes.title}>
-              Let's chat.
+              Contact Us
             </Typography>
             <Box textAlign="left" display="flex" flexDirection="row-reverse">
               <IconButton onClick={handleClose} size="medium">
@@ -258,54 +257,24 @@ const LetsChat = ({
             </Grid>
             <Grid item xs={6}>
               <TextField
-                required
-                id="business-name"
-                label="Business Name"
-                variant="outlined"
-                fullWidth
-                value={businessName}
-                onChange={(e) => setBusinessName(e.target.value)}
-              />
-            </Grid>
-            <Grid item xs={6}>
-              <FormControl className={classes.formControl}>
-                <InputLabel>Total Annual Revenue *</InputLabel>
-                <Select
-                  id="revenue"
-                  value={revenue}
-                  onChange={(e) => setRevenue(e.target.value)}
-                  fullWidth
-                >
-                  <MenuItem value={"<50Lakh"} className={classes.formControl}>
-                    Less than INR 50 Lakhs
-                  </MenuItem>
-                  <MenuItem
-                    value={"50Lakh-1Cr"}
-                    className={classes.formControl}
-                  >
-                    INR 50 Lakhs - INR 1 Cr
-                  </MenuItem>
-                  <MenuItem value={"1-2Cr"} className={classes.formControl}>
-                    INR 1 Cr - INR 2 Cr
-                  </MenuItem>
-                  <MenuItem value={"2-3Cr"} className={classes.formControl}>
-                    INR 2 Cr - INR 3 Cr
-                  </MenuItem>
-                  <MenuItem value={">3Cr"} className={classes.formControl}>
-                    More than INR 3 Cr
-                  </MenuItem>
-                </Select>
-              </FormControl>
-            </Grid>
-            <Grid item xs={6}>
-              <TextField
-                required
+                
                 id="url"
-                label="Storefront URL"
+                label="Crux of what you want to communicate"
                 variant="outlined"
                 fullWidth
                 value={url}
-                onChange={(e) => setUrl(e.target.value)}
+                onChange={(e) => setCrux(e.target.value)}
+              />
+            </Grid>
+            <Grid item xs={6}>
+              <TextField
+                
+                id="url"
+                label="Phone"
+                variant="outlined"
+                fullWidth
+                value={url}
+                onChange={(e) => setPhone(e.target.value)}
               />
             </Grid>
             <Grid item xs={12}>
@@ -320,7 +289,7 @@ const LetsChat = ({
                 }
                 label={
                   <Typography variant="body1" className={classes.body}>
-                    Yes, I want to receive content, VIP event invites, and more
+                    Yes, I want to receive content and more
                     information from NSS. You can unsubscribe anytime.
                   </Typography>
                 }
@@ -359,58 +328,6 @@ const LetsChat = ({
                 fullWidth
                 value={email === "" ? initialEmail : email}
                 onChange={(e) => setEmail(e.target.value)}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                required
-                id="business-name"
-                label="Business Name"
-                variant="outlined"
-                fullWidth
-                value={businessName}
-                onChange={(e) => setBusinessName(e.target.value)}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <FormControl className={classes.formControl}>
-                <InputLabel>Total Annual Revenue *</InputLabel>
-                <Select
-                  id="revenue"
-                  value={revenue}
-                  onChange={(e) => setRevenue(e.target.value)}
-                  fullWidth
-                >
-                  <MenuItem value={"<50Lakh"} className={classes.formControl}>
-                    Less than INR 50 Lakhs
-                  </MenuItem>
-                  <MenuItem
-                    value={"50Lakh-1Cr"}
-                    className={classes.formControl}
-                  >
-                    INR 50 Lakhs - INR 1 Cr
-                  </MenuItem>
-                  <MenuItem value={"1-2Cr"} className={classes.formControl}>
-                    INR 1 Cr - INR 2 Cr
-                  </MenuItem>
-                  <MenuItem value={"2-3Cr"} className={classes.formControl}>
-                    INR 2 Cr - INR 3 Cr
-                  </MenuItem>
-                  <MenuItem value={">3Cr"} className={classes.formControl}>
-                    More than INR 3 Cr
-                  </MenuItem>
-                </Select>
-              </FormControl>
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                required
-                id="url"
-                label="Storefront URL"
-                variant="outlined"
-                fullWidth
-                value={url}
-                onChange={(e) => setUrl(e.target.value)}
               />
             </Grid>
             <Grid item xs={12}>

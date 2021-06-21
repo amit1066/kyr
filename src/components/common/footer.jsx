@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) =>
     root: {
       paddingTop: 68,
       paddingBottom: 68,
-      backgroundColor: "#0e172a",
+      backgroundColor: "#100A33",
       borderRadius: 0,
       [theme.breakpoints.down(800)]: {
         paddingTop: 30,
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) =>
     },
     growButton: {
       "&:hover": {
-        backgroundColor: "#00ddb6",
+        backgroundColor: "#FE8500",
       },
       borderRadius: 0,
       border: "1px solid #00ddb6",
@@ -119,7 +119,7 @@ const Footer = () => {
             onClick={handleClickOpen}
           >
             <Typography variant="body1" className={classes.navButtons}>
-              Grow with us
+              Contact Us
             </Typography>
           </Button>
         </Box>

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import { Autocomplete } from "@material-ui/lab";
 import TextField from '@material-ui/core/TextField';
 
@@ -98,7 +98,7 @@ const Header = () => {
                 <FacebookIcon color="primary" fontSize="large"> </FacebookIcon>
               </a>
               <a href="https://www.twitter.com">
-                <TwitterIcon color="primary" fontSize="large"></TwitterIcon>
+                <InstagramIcon color="primary" fontSize="large"></InstagramIcon>
               </a>
             </Box>
 

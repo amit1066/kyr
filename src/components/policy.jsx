@@ -14,7 +14,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
-
+import cyrb53 from './common/hash';
+import { Link } from 'react-router-dom';
 
 import Slide from '@material-ui/core/Slide';
 
@@ -76,28 +77,12 @@ const useStyles = makeStyles((theme) => ({
           </Typography>
         </CardContent>
         <CardActions style={{ justifyContent: "center", bottom:"0" }}>
-          <Button size="small" variant="outlined" className={classes.ReadMoreButton} onClick={props.handleClickOpen}> READ MORE </Button>
+          <Button size="small" variant="outlined" className={classes.ReadMoreButton} > 
+            <Link to={`/sandbox/Player/${cyrb53(props.title, 42)}`}>
+              Read More
+            </Link>
+          </Button>
         </CardActions>
-        <Dialog fullScreen open={props.open} onClose={props.handleClose} TransitionComponent={Transition}>
-          <AppBar className={classes.appBar}>
-            <Toolbar>
-              <IconButton edge="start" color="inherit" onClick={props.handleClose} aria-label="close">
-                <CloseIcon />
-              </IconButton>
-              <Typography variant="h6" className={classes.title}>
-                {props.title}
-              </Typography>
-              <Button autoFocus color="inherit" onClick={props.handleClose}>
-                explore another policy
-            </Button>
-            </Toolbar>
-          </AppBar>
-          <List>
-            {entries}
-          </List>
-  
-        </Dialog>
       </Card>
     );
   }
-  
