@@ -18,7 +18,7 @@ const useStyles2 = makeStyles((theme) => ({
   }
 }));
 export default function FullScreenDialog() {
-  const [open, setOpen] = React.useState(false);
+  
 
   const classes = useStyles2();
   
@@ -27,7 +27,7 @@ export default function FullScreenDialog() {
       
       {EmploymentArray.map((data, i) => (
         <Box m={2} className={classes.PolicyBox} key={i}>
-          <Policy open={open === i} {...data} />
+          <Policy {...data} />
           
         </Box>
                       
