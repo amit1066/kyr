@@ -4,6 +4,8 @@ import About from "./about";
 import Notification from "./Notification";
 import Links from "./Links";
 import { makeStyles, withStyles, createMuiTheme, ThemeProvider, fade } from '@material-ui/core/styles';
+import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+
 
 import { green } from "@material-ui/core/colors";
 import Button from "@material-ui/core/Button";
@@ -29,6 +31,7 @@ const useStyles2 = makeStyles((theme) => ({
     card: {
         minWidth: 200,
     },
+    
     gridList: {
         flexWrap: 'nowrap',
         // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
@@ -54,6 +57,7 @@ const useStyles2 = makeStyles((theme) => ({
         textPrimary: 'white',
 
     },
+    
     title: {
         color: theme.palette.primary.light,
     },
@@ -68,7 +72,7 @@ const ReadButton = withStyles({
 
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
-  });
+});
 
 
 /*function FullScreenDialog() {
@@ -86,19 +90,19 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 function SingleLineGridList() {
     const classes = useStyles2();
     var i = 1;
-    
-  const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = (i) => ( // this function returns a function that opens up a particular full screen dialog
-    () => {
-        setOpen(i); // 'i' represents the tab number to open up when clicked
-    }
-  )
-  ;
+    const [open, setOpen] = React.useState(false);
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+    const handleClickOpen = (i) => ( // this function returns a function that opens up a particular full screen dialog
+        () => {
+            setOpen(i); // 'i' represents the tab number to open up when clicked
+        }
+    )
+        ;
+
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     return (
         <div className={classes.root}>
@@ -122,11 +126,11 @@ function SingleLineGridList() {
                         <GridListTileBar
                             className={classes.tilebar}
                             actionIcon={
-                                <MostSearchedDialog data={data.data} hc={handleClickOpen(i)} open={open===i} handleClose={handleClose} />
-                                    
-                                                            
+                                <MostSearchedDialog data={data.data} hc={handleClickOpen(i)} open={open === i} handleClose={handleClose} />
+
+
                             }
-                            
+
                         />
 
                     </GridListTile>
@@ -142,10 +146,46 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         padding: "1px 6px",
     },
+    // SubscribeNow: {
+    //     backgroundColor: "#100a33",
+    //     color: "white",
+    //     padding: "1.5rem",
+    // },
     SubscribeNow: {
-        backgroundColor: "#100a33",
+        paddingTop: 68,
+        paddingBottom: 68,
+        backgroundColor: "#100A33",
+        borderRadius: 0,
         color: "white",
-        padding: "1.5rem",
+        [theme.breakpoints.down(800)]: {
+          paddingTop: 30,
+          paddingBottom: 30,
+        },
+      },
+      navButtons: {
+        color: "#ffffff",
+        fontWeight: 600,
+        fontSize: "20px",
+        [theme.breakpoints.down(800)]: {
+          lineHeight: "21px",
+          fontSize: "12px",
+        },
+    },
+    growButton: {
+        "&:hover": {
+            backgroundColor: "#FE8500",
+        },
+        borderRadius: 0,
+        border: "1px solid #00ddb6",
+        color: "#ffffff",
+        textTransform: "none",
+        paddingTop: 8,
+        paddingBottom: 8,
+        paddingLeft: 45,
+        paddingRight: 45,
+        [theme.breakpoints.down(800)]: {
+            display: "none",
+        },
     },
     root: {
         display: 'flex',
@@ -288,8 +328,16 @@ const Home = () => {
                                 variant="filled"
                                 id="email"
                             />
-                            <Button variant="contained" color="primary" size="small" className={classes.button}>
-                                Subscribe
+                            <Button
+                                variant="outlined"
+                                disableElevation
+                                className={classes.growButton}
+                                endIcon={<ArrowForwardIcon />}
+
+                            >
+                                <Typography variant="body1" className={classes.navButtons}>
+                                    Subscribe
+                                </Typography>
                             </Button>
                         </ThemeProvider>
                     </form>
@@ -301,17 +349,3 @@ const Home = () => {
 }
 
 export default Home;
-/*
-<ReadButton>Read
-                                    </ReadButton>
-<Box display="flex" p={1} style={{ width: '100%' }} flexWrap="wrap" flexDirection="row" justifyContent="center">
-      
-      {HealthArray.map((data, i) => (
-        <Box m={2} className={classes.PolicyBox} key={i}>
-          <Policy open={open === i}  handleClose={handleClose} handleClickOpen={() => handleClickOpen(i)} {...data} />
-          
-        </Box>
-                                                
-                                ))}
-                              </Box>
-                              */

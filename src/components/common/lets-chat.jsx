@@ -133,7 +133,7 @@ const LetsChat = ({
   const [phone, setPhone] = useState("");
   const [url, setUrl] = useState("");
   
-  const [updates, setUpdates] = useState(false);
+  
   const [crux, setCrux] = useState("");
   const [email, setEmail] = useState(initialEmail);
   const isDisabled = useMemo(() => {
@@ -152,14 +152,14 @@ const LetsChat = ({
     setLastName("");
     setEmail("");
     setPhone("");
-    setUpdates(false);
+    
   }, []);
 
   const handleSubmit = useCallback(() => {
     if (
       firstName === "" ||
       lastName === "" ||
-      email === "" ||
+      
       phone === ""
       
       
@@ -246,7 +246,7 @@ const LetsChat = ({
             </Grid>
             <Grid item xs={6}>
               <TextField
-                required
+                
                 id="email"
                 label={"Email Address"}
                 variant="outlined"
@@ -262,7 +262,7 @@ const LetsChat = ({
                 label="Crux of what you want to communicate"
                 variant="outlined"
                 fullWidth
-                value={url}
+                value={crux}
                 onChange={(e) => setCrux(e.target.value)}
               />
             </Grid>
@@ -273,28 +273,11 @@ const LetsChat = ({
                 label="Phone"
                 variant="outlined"
                 fullWidth
-                value={url}
+                value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />
             </Grid>
-            <Grid item xs={12}>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={updates}
-                    onChange={(e) => setUpdates(e.target.checked)}
-                    name="checkedB"
-                    color="primary"
-                  />
-                }
-                label={
-                  <Typography variant="body1" className={classes.body}>
-                    Yes, I want to receive content and more
-                    information from NSS. You can unsubscribe anytime.
-                  </Typography>
-                }
-              />
-            </Grid>
+            
           </Grid>
           <Grid container spacing={2} className={classes.grid2}>
             <Grid item xs={12}>
@@ -330,24 +313,7 @@ const LetsChat = ({
                 onChange={(e) => setEmail(e.target.value)}
               />
             </Grid>
-            <Grid item xs={12}>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={updates}
-                    onChange={(e) => setUpdates(e.target.checked)}
-                    name="checkedB"
-                    color="primary"
-                  />
-                }
-                label={
-                  <Typography variant="body1" className={classes.body}>
-                    Yes, I want to receive content and more information from
-                    NSS. You can unsubscribe anytime.
-                  </Typography>
-                }
-              />
-            </Grid>
+            
           </Grid>
         </DialogContent>
         <Box textAlign="left" display="flex" flexDirection="row-reverse">
